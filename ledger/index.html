@@ -382,10 +382,11 @@ function vaultHtml(v){
     <div class="term promo">
       <div class="k">${esc(promo.name)} · deposits ${esc(promo.window.start)} to ${esc(promo.window.end)}${promo.pool_ixs ? ` · pool ${Number(promo.pool_ixs).toLocaleString("en-US")} $IXS, first come first served` : ""}</div>
       <div class="v">${esc(promo.mechanic)}</div>
-      ${promo.tiers ? `<table><thead><tr><th>Deposit</th><th>Bonus (in IXS)</th><th>Annualized</th></tr></thead><tbody>
+      ${promo.tiers ? `<table><thead><tr><th>Deposit</th><th>Reward (fixed in USD, paid in $IXS)</th><th>Annualized</th></tr></thead><tbody>
         ${promo.tiers.map(t=>`<tr><td>$${t.deposit_usd.toLocaleString("en-US")}</td><td>$${t.bonus_ixs_usd} (${t.bonus_pct}%)</td><td>${t.annualized_pct}%</td></tr>`).join("")}
       </tbody></table>`:""}
       <div class="v" style="margin-top:8px">${esc(promo.caveats)}</div>
+      ${promo.url || promo.terms_url ? `<div class="invest" style="margin-top:10px">${promo.url ? `<a href="${esc(promo.url)}" target="_blank" rel="noopener">Program page ↗</a>` : ""}${promo.terms_url ? `<a href="${esc(promo.terms_url)}" target="_blank" rel="noopener">Rewards T&amp;Cs (PDF) ↗</a>` : ""}</div>` : ""}
     </div>` : "";
   const disclosure = v.id.startsWith("ixs") ? `<div class="disclosure">IXS is a client of ours. Its terms are verified against issuer documents to the same standard as every other vault on this page.</div>` : "";
   return `
