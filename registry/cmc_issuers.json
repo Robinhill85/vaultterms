@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-06T04:41:07+00:00",
+  "as_of": "2026-09-07T04:43:48+00:00",
   "total": 24,
   "issuers": [
     {
@@ -72,7 +72,7 @@
       "name": "Backpack",
       "website": "https://backpack.exchange",
       "logo": "https://s2.coinmarketcap.com/static/img/issuer/M7sS2GzR_400x400.png",
-      "num_tokens": 5
+      "num_tokens": 6
     },
     {
       "issuer_id": "6a436076282e7240b76c8bf9",
