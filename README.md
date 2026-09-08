@@ -3,7 +3,7 @@
 Curated registry + live data pipeline behind vaultterms.com — an overview of RWA vaults:
 what backs each vault, who can invest, on what terms, and where.
 
-## Status (Sep 1, 2026)
+## Status (Sep 8, 2026)
 
 - `registry/vaults.json` — 26 vaults, hand-verified from official issuer docs (research pass 2026-09-01)
 - `registry/vaults.enriched.json` — registry + live DeFiLlama TVL/APY (`python3 registry/enrich.py`)
@@ -14,11 +14,10 @@ what backs each vault, who can invest, on what terms, and where.
 ## Coverage
 
 12 tokenized treasuries, 6 private credit, 1 corporate bonds (IXS/SHYG on
-Avalanche), 2 gold, 2 tokenized stocks, 2 basis-yield, 1 reinsurance.
+Avalanche, also available on BNB), 2 gold, 2 tokenized stocks, 2 basis-yield, 1 reinsurance.
 16 of 26 retail-accessible somewhere.
 Goldfinch Prime included as winding-down (historical/cautionary; not investable).
-Note for the page: IXS is a Robin/Overxceed client — add a disclosure line
-wherever the IXS vault is featured.
+IXS is a Robin/Overxceed client; the entry includes this disclosure.
 
 ## #BuildwithCMC — Real World Assets track
 
@@ -40,8 +39,24 @@ Evidence of real calls (code + responses + the daily public call log `registry/c
    Franklin BENJI has no DeFiLlama entry (slug null) — use rwa.xyz if needed.
 3. **CoinMarketCap RWA API:** issuers, tokenized-asset categories, wrapper premiums (`registry/cmc_rwa.py`, ~9 credits/day).
 
-## Next steps
+## Run locally
 
-- Overview page (RWA Radar-style: snapshot JSON → static site → Vercel)
-- Cron refresh (enrich + CMC sustainability pass)
-- Filters: asset class, chain, "retail-accessible", KYC tier, jurisdiction
+```bash
+python3 -m http.server 8000
+# Open http://localhost:8000/ledger/
+python3 -m unittest discover -s tests -v
+node --test tests/*.test.cjs
+```
+
+The deployed root is rewritten to `ledger/index.html` by Vercel. GitHub Actions refreshes the data daily.
+
+## Combined IXS TVL
+
+`registry/ixs_tvl.py` reads `totalAssets()` from the Avalanche and BNB deployments of IXS's `ixhyb` product, the same aggregation used by the official combined vault page. USDC is valued at $1. Each reading records its chain, contract, block and time. Both chains must succeed for a combined total. Pending requests are not added separately. `enrich.py` runs this as part of the daily refresh.
+
+The verified terms remain scoped to Avalanche; BNB is explicitly linked as another available route, whose terms and reward eligibility should be checked separately.
+
+## Submission materials
+
+- [Draft submission and demo script](docs/submission-draft.md)
+- [Final check report](docs/final-checks-2026-09-08.md)
