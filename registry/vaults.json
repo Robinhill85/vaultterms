@@ -1630,6 +1630,13 @@
       }
     ],
     "status": "new",
-    "vault_standard": "ERC-7540"
+    "vault_standard": "ERC-7540",
+    "also_available_on": [
+      {
+        "chain": "BNB Chain",
+        "url": "https://vaults.ixs.finance/vaults/",
+        "note": "Same IXHYB product in the IXS catalog. Terms on this entry and the agent execution refer to Avalanche; check the BNB route for its terms and reward eligibility."
+      }
+    ]
   }
 ]

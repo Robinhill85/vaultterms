@@ -354,7 +354,7 @@ function apyOf(v){
   if (Number.isFinite(v.live?.apy_pct)) return {n:v.live.apy_pct, tag:"live", date:v.live.as_of, source:"DeFiLlama"};
   return {n:v.apy_pct_approx, tag:"approx", date:v.verified_at, source:"VaultTerms research"};
 }
-function tvlOf(v) { return Number.isFinite(v.live?.tvl_usd) ? {n:v.live.tvl_usd,date:v.live.as_of,kind:"live",source:"DeFiLlama"} : {n:v.tvl_usd_approx,date:v.verified_at,kind:"approx",source:"VaultTerms research"}; }
+function tvlOf(v) { if(v.live?.tvl_scope==="combined") return {n:v.live.tvl_complete?v.live.tvl_usd:null,date:v.live.as_of,kind:"live",source:v.live.tvl_source}; return Number.isFinite(v.live?.tvl_usd) ? {n:v.live.tvl_usd,date:v.live.as_of,kind:"live",source:v.live.tvl_source||"DeFiLlama"} : {n:v.tvl_usd_approx,date:v.verified_at,kind:"approx",source:"VaultTerms research"}; }
 function activePromo(v){
   if (!v.promotions) return null;
   const today = new Date().toISOString().slice(0,10);
@@ -396,6 +396,7 @@ function vaultHtml(v){
         <div class="eyebrow">${esc(v.issuer.split("(")[0].split("—")[0].trim())}</div>
         <h3>${esc(v.name)}</h3>
         <p class="underlying">${esc(v.underlying)}</p>
+        ${(v.also_available_on||[]).map(a=>`<p class="data-note">Also available on <a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.chain)} ↗</a>. ${esc(a.note)}</p>`).join("")}
         <div class="stamps">
           ${dead ? `<span class="stamp dead">Wound down</span>` : ""}
           ${v.status==="new" ? `<span class="stamp open">New</span>` : ""}
@@ -408,7 +409,7 @@ function vaultHtml(v){
       </div>
       <div class="v-figures">
         <div class="fig"><div class="k">Yield</div><div class="n">${financial(apy.n,apy.date,n=>n.toFixed(2)+"%",apy.tag)}</div>${provenance(apy.source,apy.date,"")}${!Number.isFinite(apy.n)?'<span class="data-note">No yield figure supplied; not a zero return.</span>':apy.tag==="approx"?'<span class="data-note">Estimate / target, not guaranteed.</span>':""}</div>
-        <div class="fig"><div class="k">TVL</div><div class="n">${financial(tvl.n,tvl.date,fmtUsd,tvl.kind)}</div>${provenance(tvl.source,tvl.date,"")}</div>
+        <div class="fig"><div class="k">${v.live?.tvl_scope==="combined"?"Combined TVL":"TVL"}</div><div class="n">${financial(tvl.n,tvl.date,fmtUsd,tvl.kind)}</div>${provenance(tvl.source,tvl.date,"")}${v.live?.tvl_scope==="combined"?`<span class="data-note">Daily snapshot · USDC ≈ USD. ${(v.live.tvl_chains||[]).map(c=>`${esc(c.chain)}: ${fmtUsd(c.tvl_usd)}`).join(" · ")}</span>`:""}</div>
         <div class="fig"><div class="k">Minimum</div><div class="n plain">${financial(v.access.min_usd,v.verified_at,fmtMin,"snapshot")}</div></div>
         <div class="fig"><div class="k">Lockup</div><div class="n plain">${esc((v.terms.lockup||"Unavailable").split(";")[0])}</div></div>
         <div style="grid-column:1/-1">${provenance("Issuer terms via VaultTerms",v.verified_at)}</div>

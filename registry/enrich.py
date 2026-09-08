@@ -8,6 +8,7 @@ import os
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from ixs_tvl import combined_tvl
 
 HERE = Path(__file__).parent
 
@@ -64,6 +65,8 @@ def main():
                 live["tvl_usd"] = pool.get("tvlUsd")
         if slug in surf_apy:
             live["apy_check_asksurf"] = surf_apy[slug]
+        if v["id"] == "ixs-blackrock-hy-bond":
+            live.update(combined_tvl())
         v["live"] = live
 
     out = HERE / "vaults.enriched.json"
