@@ -58,11 +58,17 @@ def main():
         live = {"as_of": now, "tvl_usd": None, "apy_pct": None}
         if slug and slug in protocols:
             live["tvl_usd"] = protocols[slug].get("tvl")
+            live["tvl_scope"] = "protocol"
+            live["tvl_source"] = "DeFiLlama protocol total"
         pool = by_project.get((slug or "").lower())
         if pool:
             live["apy_pct"] = pool.get("apy")
+            live["apy_scope"] = "project_reference_pool"
+            live["apy_source"] = "DeFiLlama largest pool for project; not a verified product yield"
             if live["tvl_usd"] is None:
                 live["tvl_usd"] = pool.get("tvlUsd")
+                live["tvl_scope"] = "project_reference_pool"
+                live["tvl_source"] = "DeFiLlama largest pool for project"
         if slug in surf_apy:
             live["apy_check_asksurf"] = surf_apy[slug]
         if v["id"] == "ixs-blackrock-hy-bond":

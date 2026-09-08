@@ -44,3 +44,7 @@ the curated fields below are the moat and change rarely.
 `also_available_on[]` lists another deployment route with `chain`, `url`, and a scope note. It does not extend the entry's verified access terms to that route.
 
 For IXS, `live.tvl_scope` is `combined`; `live.tvl_source` names the two chains, `live.tvl_method` explains the sum and USDC-at-$1 assumption, and `live.tvl_complete` is true only when both reads succeed. `live.tvl_chains[]` holds chain ID/name, contract, decimals, raw base units, block number, RPC source, USD value and observation time. The combined `as_of` is the older reading. A failed chain produces a null combined value and null time, while preserving the available breakdown. It must never display as zero or as a complete partial sum.
+
+## DeFiLlama metric scope
+
+`live.tvl_scope` is `protocol` when sourced from `/protocols`, or `project_reference_pool` when falling back to the project's largest yield pool. `live.tvl_source` describes this scope. Neither establishes an individual product's TVL. Enriched APY has `apy_scope: "project_reference_pool"` and an explanatory `apy_source`; matching only the project slug does not verify the named product's yield. Issuer targets take precedence when supplied.
