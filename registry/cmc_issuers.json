@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-08T04:38:28+00:00",
+  "as_of": "2026-09-09T04:44:27+00:00",
   "total": 24,
   "issuers": [
     {
@@ -7,7 +7,7 @@
       "name": "Backed Assets",
       "website": "https://assets.backed.fi/",
       "logo": null,
-      "num_tokens": 976,
+      "num_tokens": 1176,
       "ledger_vault_id": "xstocks-backed"
     },
     {
