@@ -337,7 +337,7 @@ const TRACK_CAT = {rwa:"RWA", rwa_lending:"RWA Lending", basis_trading:"Basis"};
 const state = {region:"any", ticket:0, kyc:"any", klass:"all"};
 let VAULTS = [], TRACKED = null;
 
-const fmtUsd = n => !Number.isFinite(n) ? "Unavailable" : n>0 && n<0.01 ? "<$0.01" : n>=1e9 ? "$"+(n/1e9).toFixed(2)+"B" : n>=1e6 ? "$"+(n/1e6).toFixed(1)+"M" : "$"+n.toLocaleString("en-US",{maximumFractionDigits:2});
+const fmtUsd = n => !Number.isFinite(n) ? "Unavailable" : n>0 && n<0.01 ? "<$0.01" : n>=1e9 ? "$"+(n/1e9).toFixed(2)+"B" : n>=1e6 ? "$"+(n/1e6).toFixed(2)+"M" : "$"+n.toLocaleString("en-US",{maximumFractionDigits:2});
 const fmtMin = n => !Number.isFinite(n) ? "Unavailable" : n===0 ? "None" : "$"+n.toLocaleString("en-US");
 const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
@@ -345,7 +345,7 @@ const recent = date => { const age = Date.now()-Date.parse(date); return Number.
 const statusOf = (n,date,kind="live") => !Number.isFinite(n) ? "unavailable" : kind==="approx" ? "approx" : kind==="snapshot" || !recent(date) ? "snapshot" : "live";
 function helpLabel(label,key,classes="data-state") { return `<button type="button" class="help-trigger ${classes}" data-help="${key}" aria-label="About ${esc(label)}">${esc(label)}</button>`; }
 function statusLabel(kind) { return ["live","approx"].includes(kind) ? helpLabel(kind,"freshness") : `<span class="data-state">${esc(kind)}</span>`; }
-function provenance(source,date,kind="snapshot") { return `<span class="data-note">${kind?`${statusLabel(kind)} · `:""}${esc(source)} · as of ${esc(typeof date==="string" && Number.isFinite(Date.parse(date)) ? date.slice(0,10) : "date not supplied")}</span>`; }
+function provenance(source,date,kind="snapshot",url="") { const src = url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(source)} ↗</a>` : esc(source); return `<span class="data-note">${kind?`${statusLabel(kind)} · `:""}${src} · as of ${esc(typeof date==="string" && Number.isFinite(Date.parse(date)) ? date.slice(0,10) : "date not supplied")}</span>`; }
 function financial(n,date,format=fmtUsd,kind="live") { return `${Number.isFinite(n)?format(n):"Unavailable"} ${statusLabel(statusOf(n,date,kind))}`; }
 const percent = n => `${n>0?"+":n<0?"−":""}${Math.abs(n).toFixed(2)}%`;
 const legacyCmc = (n,data) => data.schema_version!==2 && n===0 ? null : n;
@@ -354,7 +354,8 @@ function apyOf(v){
   if (Number.isFinite(v.live?.apy_pct)) return {n:v.live.apy_pct, tag:"live", date:v.live.as_of, source:v.live.apy_source||"DeFiLlama"};
   return {n:v.apy_pct_approx, tag:"approx", date:v.verified_at, source:"VaultTerms research"};
 }
-function tvlOf(v) { if(v.live?.tvl_scope==="combined") return {n:v.live.tvl_complete?v.live.tvl_usd:null,date:v.live.as_of,kind:"live",source:v.live.tvl_source}; return Number.isFinite(v.live?.tvl_usd) ? {n:v.live.tvl_usd,date:v.live.as_of,kind:"live",source:v.live.tvl_source||"DeFiLlama"} : {n:v.tvl_usd_approx,date:v.verified_at,kind:"approx",source:"VaultTerms research"}; }
+function tvlOf(v) { if(v.live?.tvl_scope==="combined") return {n:v.live.tvl_complete?v.live.tvl_usd:null,date:v.live.as_of,kind:"live",source:v.live.tvl_source,url:v.live.tvl_source_url||""}; return Number.isFinite(v.live?.tvl_usd) ? {n:v.live.tvl_usd,date:v.live.as_of,kind:"live",source:v.live.tvl_source||"DeFiLlama",url:v.live.tvl_source_url||""} : {n:v.tvl_usd_approx,date:v.verified_at,kind:"approx",source:"VaultTerms research",url:""}; }
+function vaultDepositsNote(live) { if(!live?.tvl_chains) return ""; const base = Number.isFinite(live.tvl_base_usd) ? `Protocol TVL ${fmtUsd(live.tvl_base_usd)} per rwa.io (${esc(live.tvl_base_as_of||"")}) + vault deposits in $10k steps. ` : "Daily snapshot · USDC ≈ USD. "; const chains = live.tvl_chains.map(c=>`${esc(c.chain)}: ${fmtUsd(c.tvl_usd)}`).join(" · "); return `<span class="data-note">${base}Vault deposits (onchain, daily): ${chains}</span>`; }
 function activePromo(v){
   if (!v.promotions) return null;
   const today = new Date().toISOString().slice(0,10);
@@ -409,7 +410,7 @@ function vaultHtml(v){
       </div>
       <div class="v-figures">
         <div class="fig"><div class="k">${apy.tag==="live"&&v.live?.apy_scope==="project_reference_pool"?"Reference pool APY":"Yield"}</div><div class="n">${financial(apy.n,apy.date,n=>n.toFixed(2)+"%",apy.tag)}</div>${provenance(apy.source,apy.date,"")}${!Number.isFinite(apy.n)?'<span class="data-note">No yield figure supplied; not a zero return.</span>':apy.tag==="approx"?'<span class="data-note">Estimate / target, not guaranteed.</span>':""}</div>
-        <div class="fig"><div class="k">${v.live?.tvl_scope==="combined"?"Combined TVL":v.live?.tvl_scope==="protocol"?"Protocol TVL":v.live?.tvl_scope==="project_reference_pool"?"Reference pool TVL":"TVL"}</div><div class="n">${financial(tvl.n,tvl.date,fmtUsd,tvl.kind)}</div>${provenance(tvl.source,tvl.date,"")}${v.live?.tvl_scope==="combined"?`<span class="data-note">Daily snapshot · USDC ≈ USD. ${(v.live.tvl_chains||[]).map(c=>`${esc(c.chain)}: ${fmtUsd(c.tvl_usd)}`).join(" · ")}</span>`:""}</div>
+        <div class="fig"><div class="k">${v.live?.tvl_scope==="combined"?"Combined TVL":v.live?.tvl_scope==="protocol"?"Protocol TVL":v.live?.tvl_scope==="project_reference_pool"?"Reference pool TVL":"TVL"}</div><div class="n">${financial(tvl.n,tvl.date,fmtUsd,tvl.kind)}</div>${provenance(tvl.source,tvl.date,"",tvl.url)}${vaultDepositsNote(v.live)}</div>
         <div class="fig"><div class="k">Minimum</div><div class="n plain">${financial(v.access.min_usd,v.verified_at,fmtMin,"snapshot")}</div></div>
         <div class="fig"><div class="k">Lockup</div><div class="n plain">${esc((v.terms.lockup||"Unavailable").split(";")[0])}</div></div>
         <div style="grid-column:1/-1">${provenance("Issuer terms via VaultTerms",v.verified_at)}</div>

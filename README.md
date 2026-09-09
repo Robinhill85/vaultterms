@@ -50,9 +50,9 @@ node --test tests/*.test.cjs
 
 The deployed root is rewritten to `ledger/index.html` by Vercel. GitHub Actions refreshes the data daily.
 
-## Combined IXS TVL
+## IXS protocol TVL
 
-`registry/ixs_tvl.py` reads `totalAssets()` from the Avalanche and BNB deployments of IXS's `ixhyb` product, the same aggregation used by the official combined vault page. USDC is valued at $1. Each reading records its chain, contract, block and time. Both chains must succeed for a combined total. Pending requests are not added separately. `enrich.py` runs this as part of the daily refresh.
+IXS reports protocol-level TVL across its pools, not just the two IXHYB vaults, so the ledger shows the [rwa.io](https://app.rwa.io/project/ixs-finance) protocol total ($88.45M, hand-maintained in `registry/ixs_tvl.py` with its reference date) plus IXHYB vault deposits rounded down to $10k steps: the first $10k in the vaults moves the headline from $88.45M to $88.46M. The vault deposits are read onchain daily by `ixs_tvl.py` (`totalAssets()` on the Avalanche and BNB deployments, USDC at $1, each reading pinned to chain, contract, block and time) and shown per chain under the headline. A failed chain keeps the base and marks vault deposits unavailable. `enrich.py` runs this as part of the daily refresh.
 
 The verified terms remain scoped to Avalanche; BNB is explicitly linked as another available route, whose terms and reward eligibility should be checked separately.
 

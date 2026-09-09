@@ -5,7 +5,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "registry"))
-from ixs_tvl import combined_tvl, read_deployment, DEPLOYMENTS
+from ixs_tvl import combined_tvl, protocol_tvl, read_deployment, DEPLOYMENTS, PROTOCOL_TVL_BASE_USD
 
 
 def reading(deployment, amount):
@@ -43,6 +43,30 @@ class CombinedTvlTests(unittest.TestCase):
         self.assertEqual(result["tvl_usd"], 123)
         self.assertEqual(result["block_number"], 256)
         self.assertEqual(rpc.call_args.args[2][-1], "0x100")
+
+
+class ProtocolTvlTests(unittest.TestCase):
+    def test_small_deposits_do_not_move_the_headline(self):
+        amounts = {43114: 401_054_476, 56: 4352 * 10**18}
+        result = protocol_tvl(lambda d: reading(d, amounts[d["chain_id"]]))
+        self.assertEqual(result["tvl_usd"], PROTOCOL_TVL_BASE_USD)
+        self.assertEqual(result["tvl_scope"], "protocol")
+        self.assertAlmostEqual(result["vault_tvl_usd"], 4753.054476)
+        self.assertTrue(result["vault_tvl_complete"])
+        self.assertEqual(result["tvl_source_url"], "https://app.rwa.io/project/ixs-finance")
+
+    def test_each_full_10k_in_the_vaults_adds_10k(self):
+        amounts = {43114: 15_000 * 10**6, 56: 9_999 * 10**18}
+        result = protocol_tvl(lambda d: reading(d, amounts[d["chain_id"]]))
+        self.assertEqual(result["tvl_usd"], PROTOCOL_TVL_BASE_USD + 20_000)
+
+    def test_failed_vault_read_keeps_the_base_and_flags_vaults(self):
+        result = protocol_tvl(lambda d: reading(d, 100_000_000) if d["chain_id"] == 43114
+                              else {"tvl_usd": None, "as_of": None})
+        self.assertEqual(result["tvl_usd"], PROTOCOL_TVL_BASE_USD)
+        self.assertIsNone(result["vault_tvl_usd"])
+        self.assertFalse(result["vault_tvl_complete"])
+        self.assertEqual(len(result["tvl_chains"]), 2)
 
 
 if __name__ == "__main__":
