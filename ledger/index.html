@@ -226,7 +226,7 @@ table.board { overflow: visible; }
   <section class="hero">
     <div class="hero-text hdr">
       <h1>Vault<span class="amp">Terms</span></h1>
-      <p class="tag"><strong>What actually backs your yield — and whether they'll let you in.</strong> A hand-verified ledger of real-world-asset vaults: underlying assets, minimums, KYC tier, jurisdiction, redemption, fees, and the practical way in. Live TVL &amp; APY joined daily.</p>
+      <p class="tag"><strong>What actually backs your yield — and whether they'll let you in.</strong> A hand-verified ledger of real-world-asset vaults: underlying assets, minimums, KYC tier, jurisdiction, redemption, fees, and the practical way in. TVL and yield data refreshed daily.</p>
       <p class="status" id="updated">loading figures…</p>
     </div>
     <img class="hero-img" src="/hero.jpg" alt="Engraved bank vault statue on a pedestal labeled Tokenized Real-World Assets">
@@ -296,7 +296,7 @@ table.board { overflow: visible; }
     <p class="scroll-hint">Scroll horizontally for all columns. The first column stays visible.</p><div class="board-wrap" role="region" tabindex="0" aria-label="Tokenized assets table, scroll horizontally"><table class="board" id="cmc-board"></table></div>
 
     <div class="classhead" style="margin-top:34px"><h2 id="premiums">Wrapper premiums</h2><a href="#glossary" title="Compare one issuer’s token with the blended tokenized average.">What does this mean?</a><div class="meta" id="prem-meta"></div></div>
-    <p class="tracked-note">Same underlying, several issuers: each tokenized wrapper's price against the blended tokenized average from CMC. A wide gap means thin liquidity or a unit mismatch — not a free lunch.</p>
+    <p class="tracked-note">Same underlying, several issuers: each tokenized wrapper's price against the blended tokenized average from CMC. A wide gap may reflect thin liquidity or a unit mismatch; it does not establish an arbitrage opportunity.</p>
     <p class="scroll-hint">Scroll horizontally for all columns. The first column stays visible.</p><div class="board-wrap" role="region" tabindex="0" aria-label="Wrapper premiums table, scroll horizontally"><table class="board" id="prem-board"></table></div>
 
     <div class="classhead" style="margin-top:34px"><h2 id="issuers">Issuers</h2><div class="meta" id="iss-meta"></div></div>
@@ -354,7 +354,7 @@ function apyOf(v){
   return {n:v.apy_pct_approx, tag:"approx", date:v.verified_at, source:"VaultTerms research"};
 }
 function tvlOf(v) { if(v.live?.tvl_scope==="combined") return {n:v.live.tvl_complete?v.live.tvl_usd:null,date:v.live.as_of,kind:"live",source:v.live.tvl_source,url:v.live.tvl_source_url||""}; return Number.isFinite(v.live?.tvl_usd) ? {n:v.live.tvl_usd,date:v.live.as_of,kind:"live",source:v.live.tvl_source||"DeFiLlama",url:v.live.tvl_source_url||""} : {n:v.tvl_usd_approx,date:v.verified_at,kind:"approx",source:"VaultTerms research",url:""}; }
-function vaultDepositsNote(live) { if(!live?.tvl_chains) return ""; const base = Number.isFinite(live.tvl_base_usd) ? `Protocol TVL ${fmtUsd(live.tvl_base_usd)} per rwa.io (${esc(live.tvl_base_as_of||"")}) + vault deposits in $10k steps. ` : "Daily snapshot · USDC ≈ USD. "; const chains = live.tvl_chains.map(c=>`${esc(c.chain)}: ${fmtUsd(c.tvl_usd)}`).join(" · "); return `<span class="data-note">${base}Vault deposits (onchain, daily): ${chains}</span>`; }
+function vaultDepositsNote(live) { if(!live?.tvl_chains) return ""; const base = Number.isFinite(live.tvl_base_usd) ? `Protocol reference: ${fmtUsd(live.tvl_base_usd)} per rwa.io (${esc(live.tvl_base_as_of||"")}). ` : "Daily snapshot · USDC ≈ USD. "; const chains = live.tvl_chains.map(c=>`${esc(c.chain)}: ${fmtUsd(c.tvl_usd)}`).join(" · "); return `<span class="data-note">${base}Vault balances (onchain, daily): ${chains}</span>`; }
 function activePromo(v){
   if (!v.promotions) return null;
   const today = new Date().toISOString().slice(0,10);
@@ -409,7 +409,7 @@ function vaultHtml(v){
       <div class="v-figures">
         <div class="fig"><div class="k">${apy.tag==="live"&&v.live?.apy_scope==="project_reference_pool"?"Reference pool APY":"Yield"}</div><div class="n">${financial(apy.n,apy.date,n=>n.toFixed(2)+"%",apy.tag)}</div>${provenance(apy.source,apy.date,"")}${!Number.isFinite(apy.n)?'<span class="data-note">No yield figure supplied; not a zero return.</span>':apy.tag==="approx"?'<span class="data-note">Estimate / target, not guaranteed.</span>':""}</div>
         <div class="fig"><div class="k">${v.live?.tvl_scope==="combined"?"Combined TVL":v.live?.tvl_scope==="protocol"?"Protocol TVL":v.live?.tvl_scope==="project_reference_pool"?"Reference pool TVL":"TVL"}</div><div class="n">${financial(tvl.n,tvl.date,fmtUsd,tvl.kind)}</div>${provenance(tvl.source,tvl.date,"",tvl.url)}${vaultDepositsNote(v.live)}</div>
-        <div class="fig"><div class="k">Minimum</div><div class="n plain">${financial(v.access.min_usd,v.verified_at,fmtMin,"snapshot")}</div></div>
+        <div class="fig"><div class="k">Minimum</div><div class="n plain">${financial(v.access.min_usd,v.verified_at,fmtMin,"snapshot")}</div>${v.id==="ixs-blackrock-hy-bond"?'<span class="data-note">Deposit $100 USDC or more.</span>':""}</div>
         <div class="fig"><div class="k">Lockup</div><div class="n plain">${esc((v.terms.lockup||"Unavailable").split(";")[0])}</div></div>
         <div style="grid-column:1/-1">${provenance("Issuer terms via VaultTerms",v.verified_at)}</div>
         <div class="regions"><a href="#glossary" title="At least one investor tier from this region can apply; not every resident qualifies.">Admits</a>: ${reg}</div>

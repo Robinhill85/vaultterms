@@ -1842,7 +1842,7 @@
       "tvl_source": "rwa.io \u00b7 IXS protocol TVL",
       "tvl_source_url": "https://app.rwa.io/project/ixs-finance",
       "tvl_scope": "protocol",
-      "tvl_method": "IXS protocol TVL $88,450,000 per rwa.io (as of 2026-09-09), plus IXHYB vault deposits rounded down to $10,000 steps. Vault deposits = sum of totalAssets() on Avalanche and BNB Chain; USDC valued at $1.",
+      "tvl_method": "IXS protocol TVL $88,450,000 per rwa.io (as of 2026-09-09), with the aggregate IXHYB contribution rounded down to the nearest $10,000 for display. This rounding does not restrict individual deposits; the minimum deposit is $100 USDC. Vault deposits = sum of totalAssets() on Avalanche and BNB Chain; USDC valued at $1.",
       "tvl_complete": true,
       "tvl_base_usd": 88450000.0,
       "tvl_base_as_of": "2026-09-09",

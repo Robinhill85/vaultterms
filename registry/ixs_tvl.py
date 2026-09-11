@@ -98,7 +98,8 @@ def protocol_tvl(reader=read_deployment, base_usd=PROTOCOL_TVL_BASE_USD, step_us
         "tvl_source_url": PROTOCOL_TVL_SOURCE_URL,
         "tvl_scope": "protocol",
         "tvl_method": (f"IXS protocol TVL ${base_usd:,.0f} per rwa.io (as of {PROTOCOL_TVL_BASE_AS_OF}), "
-                       f"plus IXHYB vault deposits rounded down to ${step_usd:,.0f} steps. "
+                       f"with the aggregate IXHYB contribution rounded down to the nearest ${step_usd:,.0f} for display. "
+                       "This rounding does not restrict individual deposits; the minimum deposit is $100 USDC. "
                        "Vault deposits = sum of totalAssets() on Avalanche and BNB Chain; USDC valued at $1."),
         "tvl_complete": True,
         "tvl_base_usd": float(base_usd),
