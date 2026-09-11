@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-10T04:44:30+00:00",
+  "as_of": "2026-09-11T04:42:24+00:00",
   "total": 24,
   "issuers": [
     {
@@ -15,7 +15,7 @@
       "name": "Ondo Assets",
       "website": "https://ondo.finance/",
       "logo": null,
-      "num_tokens": 544,
+      "num_tokens": 551,
       "ledger_vault_id": "ondo-global-markets"
     },
     {
