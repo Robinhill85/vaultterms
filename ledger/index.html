@@ -125,7 +125,6 @@ a { color: #fff; }
 .promo table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 12px; font-variant-numeric: tabular-nums; }
 .promo th, .promo td { text-align: left; padding: 3px 10px 3px 0; border-bottom: 1px dashed rgba(255,178,36,.35); }
 .promo th { font-size: 10px; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); }
-.disclosure { grid-column: 1/-1; font-size: 12px; color: var(--muted); font-style: italic; }
 .srcs { font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
 .srcs a { color: var(--muted); }
 
@@ -313,7 +312,7 @@ table.board { overflow: visible; }
 
   <footer>
     <p><strong>This is information, not advice.</strong> Nothing here is a recommendation to invest, and yields shown are targets or trailing figures that can fall or go negative. Terms were verified against official issuer documents on the date shown per entry; issuers change terms without telling us. Always read the issuer's own documents before sending money anywhere.</p>
-    <p>Access verdicts show whether an issuer admits <em>anyone</em> from a region at <em>any</em> tier — a "will take your money" result can still require accreditation or institutional onboarding; the stamp on each entry says which. Every vault here — including our client IXS's — is held to the same standard: terms verified against official issuer documents, shown unedited.</p>
+    <p>Access verdicts show whether an issuer admits <em>anyone</em> from a region at <em>any</em> tier — a "will take your money" result can still require accreditation or institutional onboarding; the stamp on each entry says which. Every vault here is held to the same standard: terms checked against official issuer documents, with source links provided.</p>
     <p class="fine">Curated registry, hand-verified · live TVL &amp; APY from DeFiLlama · APY cross-checked via AskSurf · tokenized-asset data, wrapper premiums &amp; issuers from the <a href="https://coinmarketcap.com/api/documentation/pro-api-reference/real-world-assets" target="_blank" rel="noopener">CoinMarketCap RWA API</a> (#BuildwithCMC) · <span id="counts"></span></p>
   </footer>
 </main>
@@ -389,7 +388,6 @@ function vaultHtml(v){
       <div class="v" style="margin-top:8px">${esc(promo.caveats)}</div>
       ${promo.url || promo.terms_url ? `<div class="invest" style="margin-top:10px">${promo.url ? `<a href="${esc(promo.url)}" target="_blank" rel="noopener">Program page ↗</a>` : ""}${promo.terms_url ? `<a href="${esc(promo.terms_url)}" target="_blank" rel="noopener">Rewards T&amp;Cs (PDF) ↗</a>` : ""}</div>` : ""}
     </div>` : "";
-  const disclosure = v.id.startsWith("ixs") ? `<div class="disclosure">IXS is a client of ours. Its terms are verified against issuer documents to the same standard as every other vault on this page.</div>` : "";
   return `
   <article class="vault ${dead?"dead":""}" id="v-${v.id}" data-id="${v.id}" data-class="${v.asset_class}">
     <div class="v-top">
@@ -428,7 +426,6 @@ function vaultHtml(v){
         ${promoHtml}
         <div class="term full"><div class="k">Where to invest</div><div class="invest">${invest || "<span class='v'>Not currently investable.</span>"}</div></div>
         <div class="term full risk"><div class="k">Risk notes</div><div class="v">${esc(v.risk_notes)}</div></div>
-        ${disclosure}
         <div class="term full srcs">Verified ${esc(v.verified_at)} · Sources: ${(v.sources||[]).map(s => s.startsWith("http") ? `<a href="${esc(s)}" target="_blank" rel="noopener">${esc(new URL(s).hostname.replace("www.",""))}</a>` : esc(s)).join(" · ")}</div>
       </div>
     </details>

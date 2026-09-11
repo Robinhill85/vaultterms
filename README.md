@@ -17,7 +17,7 @@ what backs each vault, who can invest, on what terms, and where.
 Avalanche, also available on BNB), 2 gold, 2 tokenized stocks, 2 basis-yield, 1 reinsurance.
 16 of 26 retail-accessible somewhere.
 Goldfinch Prime included as winding-down (historical/cautionary; not investable).
-IXS is a Robin/Overxceed client; the entry includes this disclosure.
+Every entry follows the same standard: terms checked against official issuer documents, with source links provided.
 
 ## #BuildwithCMC — Real World Assets track
 

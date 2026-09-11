@@ -32,7 +32,7 @@ CMC made it possible to connect issuer discovery and tokenized pricing to practi
 
 ## Original work and shared components
 
-The verified registry, Eligibility Desk and tracked layer pre-date the CMC integration. The issuer explorer, tokenized category layer, wrapper comparison and CMC pipeline were added for this event starting on 3 September 2026. Will RWA let me in? is a separate AI Agents and Automation entry that consumes this shared registry. This entry demonstrates the research interface and data pipeline. IXS is a client of the author and its entry carries that disclosure.
+The verified registry, Eligibility Desk and tracked layer pre-date the CMC integration. The issuer explorer, tokenized category layer, wrapper comparison and CMC pipeline were added for this event starting on 3 September 2026. Will RWA let me in? is a separate AI Agents and Automation entry that consumes this shared registry. This entry demonstrates the research interface and data pipeline.
 
 ## Demo script: about 100 seconds
 
