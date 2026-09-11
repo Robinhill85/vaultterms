@@ -16,7 +16,7 @@ Two products can give exposure to the same underlying asset while admitting diff
 
 VaultTerms connects CoinMarketCap's RWA issuer and wrapper data with a curated registry of access terms. Users can compare tokenized stocks, commodities and ETFs, inspect issuer-specific wrapper prices, and follow matched issuers into verified terms. The Eligibility Desk filters the verified registry by region, ticket size and KYC tolerance. Terms include underlying exposure, minimum investment, redemption, fees, risks and source links.
 
-At the 8 September snapshot, the site contains 26 verified entries and a separate set of 74 tracked protocols. It distinguishes verified terms from market-data-only coverage, target yields from reported figures, and missing values from measured zero. CMC data is refreshed daily, with source dates visible. IXS product TVL is read separately from its Avalanche and BNB deployments and shown with a breakdown.
+At the 11 September snapshot, the site contains 26 verified entries and a separate set of 71 tracked protocols (97 total). It distinguishes verified terms from market-data-only coverage, target yields from reported figures, and missing values from measured zero. CMC data is refreshed daily, with source dates visible. IXS protocol TVL uses a separately sourced rwa.io reference, with daily Avalanche and BNB vault balances shown underneath. The IXS entry states the $100 USDC deposit minimum.
 
 ## CMC integration and evidence
 
@@ -43,7 +43,7 @@ The verified registry, Eligibility Desk and tracked layer pre-date the CMC integ
 | 30–50s | Show NVDA or gold wrappers. Explain the blended average and timestamp; show that extreme or missing values are excluded. |
 | 50–65s | Show the public CMC request, successful response and pipeline code. Name the three endpoints. |
 | 65–85s | Apply EU, $1,000 and basic KYC. Open one matched entry's terms and sources. Distinguish the verified and tracked counts. |
-| 85–100s | Show the combined IXS TVL as a separately sourced example, then the public repo. “CMC supplies pricing and issuer discovery; VaultTerms adds the access terms.” |
+| 85–100s | Show IXS protocol TVL and the separate per-chain vault balances as a separately sourced example, then the public repo. “CMC supplies pricing and issuer discovery; VaultTerms adds the access terms.” |
 
 ## X draft
 

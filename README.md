@@ -3,15 +3,17 @@
 Curated registry + live data pipeline behind vaultterms.com — an overview of RWA vaults:
 what backs each vault, who can invest, on what terms, and where.
 
-## Status (Sep 8, 2026)
+## Status (11 September 2026)
 
-- `registry/vaults.json` — 26 vaults, hand-verified from official issuer docs (research pass 2026-09-01)
-- `registry/vaults.enriched.json` — registry + live DeFiLlama TVL/APY (`python3 registry/enrich.py`)
+- `registry/vaults.json` — 26 vaults, hand-verified from official issuer docs (verification dates shown per entry)
+- `registry/vaults.enriched.json` — registry + DeFiLlama reference metrics and IXS protocol/onchain figures (`python3 registry/enrich.py`)
 - `registry/cmc_issuers.json`, `cmc_assets.json`, `cmc_premiums.json`, `cmc_calls.json` — CoinMarketCap RWA layer (`python3 registry/cmc_rwa.py`)
 - `registry/SCHEMA.md` — field reference
 - `registry/_batch_*.json` — raw research batches (provenance; vaults.json is the merge)
 
 ## Coverage
+
+The 11 September snapshot contains **26 verified entries and 71 tracked protocols (97 total)**. Counts can change with the daily refresh.
 
 12 tokenized treasuries, 6 private credit, 1 corporate bonds (IXS/SHYG on
 Avalanche, also available on BNB), 2 gold, 2 tokenized stocks, 2 basis-yield, 1 reinsurance.
@@ -35,7 +37,7 @@ Evidence of real calls (code + responses + the daily public call log `registry/c
 
 1. **Curated (the moat):** underlying assets, KYC tier, jurisdiction, minimums,
    redemption mechanics, fees, how-to-invest paths — verified against issuer docs.
-2. **Live:** DeFiLlama protocols + yields APIs (free, no key) via `enrich.py`.
+2. **Enrichment:** DeFiLlama protocol totals and project reference-pool APY via `enrich.py`, plus the separately sourced IXS protocol reference and onchain vault balances.
    Franklin BENJI has no DeFiLlama entry (slug null) — use rwa.xyz if needed.
 3. **CoinMarketCap RWA API:** issuers, tokenized-asset categories, wrapper premiums (`registry/cmc_rwa.py`, ~9 credits/day).
 
@@ -59,4 +61,6 @@ The verified terms remain scoped to Avalanche; BNB is explicitly linked as anoth
 ## Submission materials
 
 - [Draft submission and demo script](docs/submission-draft.md)
-- [Final check report](docs/final-checks-2026-09-08.md)
+- [Current release and final wording](docs/release-2026-09-11.md)
+- [Submission plan](docs/submission-plan.md)
+- [Historical September 8 checks](docs/final-checks-2026-09-08.md)

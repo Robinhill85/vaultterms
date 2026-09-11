@@ -1,5 +1,7 @@
 # VaultTerms clarity and data trust
 
+> Historical review. Figures, wording and deployment status below describe the review at that time. See the [11 September release](release-2026-09-11.md) and [current submission plan](submission-plan.md) for the final published version.
+
 ## Changes
 
 - [x] Reused the existing blue grid, amber figures, panel styles and native HTML controls.

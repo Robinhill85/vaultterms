@@ -1,8 +1,7 @@
 # RWA Vault Registry — Schema
 
 `vaults.json` is the curated, hand-verified layer of the RWA vaults overview.
-Live numbers (TVL, APY) are enriched at build time by `enrich.py` from DeFiLlama;
-the curated fields below are the moat and change rarely.
+Daily enrichment in `enrich.py` adds DeFiLlama reference metrics and separately sourced IXS protocol/onchain figures. Curated access terms retain their own verification dates.
 
 ## Vault object
 

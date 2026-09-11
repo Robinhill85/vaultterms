@@ -2,8 +2,9 @@
 
 IXS reports protocol-level TVL across its pools (not just the two IXHYB vaults), so the
 headline figure is the rwa.io protocol total, updated by hand when the reference changes:
-https://app.rwa.io/project/ixs-finance. Vault deposits are added on top in whole $10k
-steps (so the first $10k in the vaults moves $88.45M to $88.46M). The vault deposits are
+https://app.rwa.io/project/ixs-finance. The aggregate vault contribution is rounded down
+to the nearest $10,000 for headline display. Individual deposits start at $100 USDC;
+this rounding is not a deposit-size restriction. The vault balances are
 read onchain: totalAssets() on both IXHYB deployments, identities verified against the
 public IXS vault catalog on 2026-09-08 (https://api-v2.ixs.finance/vaults?requiresWhitelist=false,
 productId: ixhyb). USDC is valued at $1; pending requests are not added separately.
@@ -82,7 +83,7 @@ def combined_tvl(reader=read_deployment):
 
 
 def protocol_tvl(reader=read_deployment, base_usd=PROTOCOL_TVL_BASE_USD, step_usd=VAULT_STEP_USD):
-    """Headline IXS TVL: rwa.io protocol base + vault deposits in whole $10k steps.
+    """Headline IXS TVL: rwa.io reference plus the rounded aggregate vault contribution.
 
     The base is always shown (it is a hand-verified reference, not an onchain read). If a
     vault read fails, the vault contribution is unknown, so the headline stays at the base
