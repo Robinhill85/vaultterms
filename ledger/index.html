@@ -518,7 +518,19 @@ function buildRail(){
   matches.forEach(v=>counts[v.asset_class]=(counts[v.asset_class]||0)+1);
   document.getElementById("rail").innerHTML = ["all",...CLASS_ORDER].map(k=>`<button class="chip" data-k="${k}" title="${k==="basis_yield"?"Basis-trade: seeking spot/derivative price or funding differences; returns can reverse.":"Count matching the active eligibility filters"}" aria-pressed="${state.klass===k}">${k==="all"?"All":CLASS_META[k].name} · ${counts[k]||0}</button>`).join("");
 }
-document.getElementById("rail").addEventListener("click",e=>{ const b=e.target.closest("[data-k]"); if(b){state.klass=b.dataset.k;render();document.querySelector(`[data-k="${state.klass}"]`).focus({preventScroll:true});} });
+document.getElementById("rail").addEventListener("click",e=>{
+  const b=e.target.closest("[data-k]");
+  if(!b)return;
+  state.klass=b.dataset.k;
+  render();
+  document.querySelector(`[data-k="${state.klass}"]`).focus({preventScroll:true});
+  // Filtering can leave the new results far above the current viewport.
+  requestAnimationFrame(()=>{
+    const top=document.getElementById("ledger").getBoundingClientRect().top+window.scrollY;
+    const offset=document.querySelector(".filter-bar").getBoundingClientRect().height+16;
+    window.scrollTo({top:Math.max(0,top-offset),behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});
+  });
+});
 document.getElementById("active-filters").addEventListener("click",e=>{const b=e.target.closest("[data-clear]");if(!b)return;const key=b.dataset.clear;state[key]=key==="ticket"?0:key==="klass"?"all":"any";if(key!=="klass")document.getElementById("q-"+key).value=state[key];render();document.getElementById("v-reset").focus({preventScroll:true});});
 // Issuer links still work when eligibility filters have hidden their verified card.
 document.addEventListener("click",e=>{const a=e.target.closest('a[href^="#v-"]');if(a&&!document.querySelector(a.getAttribute("href"))){document.getElementById("v-reset").click();}});
