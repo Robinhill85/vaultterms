@@ -1,66 +1,66 @@
 {
-  "as_of": "2026-09-13T04:50:01+00:00",
+  "as_of": "2026-09-14T04:58:32+00:00",
   "assets": {
     "NVDA": {
       "name": "Nvidia Corp",
       "asset_type": "stock",
-      "average_tokenized_price": 217.66105586160052,
-      "tokenized_market_cap": 119567528.3172222,
-      "last_updated": "2026-09-13T04:48:40.139Z",
+      "average_tokenized_price": 215.01843664480214,
+      "tokenized_market_cap": 118932027.67710769,
+      "last_updated": "2026-09-14T04:58:02.768Z",
       "tokens": [
         {
           "symbol": "NVDAX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 217.80189763766492,
-          "market_cap": 39029795.53,
-          "volume_24h": 6432157.06231926,
-          "premium_pct": 0.065
+          "price": 215.2763773255853,
+          "market_cap": 38623644.77,
+          "volume_24h": 7953309.09181588,
+          "premium_pct": 0.12
         },
         {
           "symbol": "NVDAon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 217.65813066041372,
-          "market_cap": 36262855.57,
-          "volume_24h": 1852452.66006449,
-          "premium_pct": -0.001
+          "price": 215.14148117411966,
+          "market_cap": 35838662.35,
+          "volume_24h": 1657719.64527275,
+          "premium_pct": 0.057
         },
         {
           "symbol": "NVDA",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 217.92576576502967,
-          "market_cap": 20898726.69,
-          "volume_24h": 80606252.7121903,
-          "premium_pct": 0.122
+          "price": 215.05235018230553,
+          "market_cap": 21173546.11,
+          "volume_24h": 32526604.66077777,
+          "premium_pct": 0.016
         },
         {
           "symbol": "NVDAB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 217.43093504610167,
-          "market_cap": 18521247.36,
-          "volume_24h": 22717457.90595183,
-          "premium_pct": -0.106
+          "price": 214.80460646417947,
+          "market_cap": 18585599.93,
+          "volume_24h": 14585064.84422487,
+          "premium_pct": -0.099
         },
         {
           "symbol": "rNVDA",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 219.2071372181682,
-          "market_cap": 4296171.61,
-          "volume_24h": 274837.78342714,
-          "premium_pct": 0.71
+          "price": 214.91256685908243,
+          "market_cap": 4130525.84,
+          "volume_24h": 589383.79942972,
+          "premium_pct": -0.049
         },
         {
           "symbol": "WNVDAX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 218.03574894044397,
-          "market_cap": 580025.8,
-          "volume_24h": 636422.71731718,
-          "premium_pct": 0.172
+          "price": 215.24163839590182,
+          "market_cap": 583178.48,
+          "volume_24h": 990482.34101864,
+          "premium_pct": 0.104
         },
         {
           "symbol": "NVDA.D",
@@ -75,73 +75,73 @@
           "symbol": "NVDA",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 217.46546238538966,
+          "price": 215.13237532634585,
           "market_cap": 0,
-          "volume_24h": 1046560.20367501,
-          "premium_pct": -0.09
+          "volume_24h": 1367033.66878521,
+          "premium_pct": 0.053
         }
       ]
     },
     "TSLA": {
       "name": "Tesla, Inc.",
       "asset_type": "stock",
-      "average_tokenized_price": 366.8499026499421,
-      "tokenized_market_cap": 116302242.9415052,
-      "last_updated": "2026-09-13T04:49:32.889Z",
+      "average_tokenized_price": 360.6575005232661,
+      "tokenized_market_cap": 114276266.9792769,
+      "last_updated": "2026-09-14T04:57:57.440Z",
       "tokens": [
         {
           "symbol": "TSLAX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 366.43652904269743,
-          "market_cap": 71459948.44,
-          "volume_24h": 5758183.10548215,
-          "premium_pct": -0.113
+          "price": 360.4544476580102,
+          "market_cap": 70293306.52,
+          "volume_24h": 7571803.41461314,
+          "premium_pct": -0.056
         },
         {
           "symbol": "TSLAB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 366.73598174913207,
-          "market_cap": 19349415.56,
-          "volume_24h": 5108688.24582091,
-          "premium_pct": -0.031
+          "price": 360.5803065492068,
+          "market_cap": 18982401.38,
+          "volume_24h": 4204625.35135948,
+          "premium_pct": -0.021
         },
         {
           "symbol": "TSLAon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 366.6659390238744,
-          "market_cap": 16536155.26,
-          "volume_24h": 2639573.50935613,
-          "premium_pct": -0.05
+          "price": 360.4554708196849,
+          "market_cap": 16180602.9,
+          "volume_24h": 2989930.81353277,
+          "premium_pct": -0.056
         },
         {
           "symbol": "TSLA",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 367.72083249240546,
-          "market_cap": 4611849.51,
-          "volume_24h": 4402811.81222002,
-          "premium_pct": 0.237
+          "price": 361.48954585814766,
+          "market_cap": 4533698.5,
+          "volume_24h": 3214912.02108917,
+          "premium_pct": 0.231
         },
         {
           "symbol": "rTSLA",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 366.83696284365044,
-          "market_cap": 4062167.29,
-          "volume_24h": 126749.61297209,
-          "premium_pct": -0.004
+          "price": 360.49874385032706,
+          "market_cap": 3980879.85,
+          "volume_24h": 176468.58151301,
+          "premium_pct": -0.044
         },
         {
           "symbol": "WTSLAX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 366.4528662890477,
-          "market_cap": 279876.75,
-          "volume_24h": 476532.42207663,
-          "premium_pct": -0.108
+          "price": 360.4765058859441,
+          "market_cap": 294574.89,
+          "volume_24h": 1510408.32053358,
+          "premium_pct": -0.05
         },
         {
           "symbol": "TSLA",
@@ -150,7 +150,7 @@
           "price": 234.96740688966065,
           "market_cap": 4748.81,
           "volume_24h": 0,
-          "premium_pct": -35.95
+          "premium_pct": -34.85
         },
         {
           "symbol": "TSLA.D",
@@ -165,73 +165,73 @@
           "symbol": "TSLA",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 366.8387248255518,
+          "price": 360.87891901355636,
           "market_cap": 0,
-          "volume_24h": 383694.1111235,
-          "premium_pct": -0.003
+          "volume_24h": 476551.44419481,
+          "premium_pct": 0.061
         }
       ]
     },
     "AAPL": {
       "name": "Apple Inc.",
       "asset_type": "stock",
-      "average_tokenized_price": 333.53850261648637,
-      "tokenized_market_cap": 37220379.71022849,
-      "last_updated": "2026-09-13T04:48:41.562Z",
+      "average_tokenized_price": 329.64750870044276,
+      "tokenized_market_cap": 36617661.94083839,
+      "last_updated": "2026-09-14T04:58:04.020Z",
       "tokens": [
         {
           "symbol": "AAPLX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 333.9480067955873,
-          "market_cap": 14546359.56,
-          "volume_24h": 3257739.63818785,
+          "price": 330.0538183468432,
+          "market_cap": 14361381.47,
+          "volume_24h": 3688390.77138791,
           "premium_pct": 0.123
         },
         {
           "symbol": "AAPLon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 334.56863478901295,
-          "market_cap": 8825463.95,
-          "volume_24h": 2416947.77277961,
-          "premium_pct": 0.309
+          "price": 330.65198771618975,
+          "market_cap": 8712640.41,
+          "volume_24h": 2278483.37777138,
+          "premium_pct": 0.305
         },
         {
           "symbol": "AAPLB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 333.13414002827375,
-          "market_cap": 7437829.84,
-          "volume_24h": 5467107.76610811,
-          "premium_pct": -0.121
+          "price": 329.1505482582028,
+          "market_cap": 7329540.89,
+          "volume_24h": 6936794.52156278,
+          "premium_pct": -0.151
         },
         {
           "symbol": "AAPL",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 333.5027535521102,
-          "market_cap": 5416518.24,
-          "volume_24h": 7004894.42102909,
-          "premium_pct": -0.011
+          "price": 329.34592273520724,
+          "market_cap": 5190610.61,
+          "volume_24h": 4650438.74183252,
+          "premium_pct": -0.091
         },
         {
           "symbol": "rAAPL",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 331.79485005398755,
-          "market_cap": 641938.29,
-          "volume_24h": 24299.39597896,
-          "premium_pct": -0.523
+          "price": 329.38834505766414,
+          "market_cap": 628652.36,
+          "volume_24h": 42920.91006454,
+          "premium_pct": -0.079
         },
         {
           "symbol": "WAAPLX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 334.00296685440776,
-          "market_cap": 359350.81,
-          "volume_24h": 753867.19179475,
-          "premium_pct": 0.139
+          "price": 330.45074552243545,
+          "market_cap": 392390.53,
+          "volume_24h": 753510.80277566,
+          "premium_pct": 0.244
         },
         {
           "symbol": "AAPL.D",
@@ -246,10 +246,10 @@
           "symbol": "AAPL",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 333.401724427951,
+          "price": 329.5905561468163,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -0.041
+          "premium_pct": -0.017
         },
         {
           "symbol": "AAPL",
@@ -258,70 +258,70 @@
           "price": 320.61285797098753,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -3.875
+          "premium_pct": -2.741
         }
       ]
     },
     "MSFT": {
       "name": "Microsoft Corp",
       "asset_type": "stock",
-      "average_tokenized_price": 495.9043874998917,
-      "tokenized_market_cap": 22681012.337058302,
-      "last_updated": "2026-09-13T04:49:27.589Z",
+      "average_tokenized_price": 494.9690254383343,
+      "tokenized_market_cap": 22628599.174299747,
+      "last_updated": "2026-09-14T04:57:52.597Z",
       "tokens": [
         {
           "symbol": "MSFTon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 496.8957511419505,
-          "market_cap": 8161888.1,
-          "volume_24h": 1985842.41777898,
-          "premium_pct": 0.2
+          "price": 496.05088276987334,
+          "market_cap": 8136358.07,
+          "volume_24h": 2459872.29019861,
+          "premium_pct": 0.219
         },
         {
           "symbol": "MSFTX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 496.6299646769354,
-          "market_cap": 7178776.26,
-          "volume_24h": 707161.07635658,
-          "premium_pct": 0.146
+          "price": 495.33266288899745,
+          "market_cap": 7159986.05,
+          "volume_24h": 2893367.98033611,
+          "premium_pct": 0.073
         },
         {
           "symbol": "MSFT",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 494.85093619480955,
-          "market_cap": 2949204.57,
-          "volume_24h": 1324260.28369569,
-          "premium_pct": -0.212
+          "price": 492.5042229482581,
+          "market_cap": 2935218.67,
+          "volume_24h": 955844.05749958,
+          "premium_pct": -0.498
         },
         {
           "symbol": "MSFTB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 494.5334913596411,
-          "market_cap": 2862584.59,
-          "volume_24h": 1448606.00136679,
-          "premium_pct": -0.276
+          "price": 492.9977862439469,
+          "market_cap": 2879113.18,
+          "volume_24h": 1667719.84562424,
+          "premium_pct": -0.398
         },
         {
           "symbol": "rMSFT",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 494.5781681241036,
-          "market_cap": 1375538.21,
-          "volume_24h": 2035.7214092,
-          "premium_pct": -0.267
+          "price": 493.3477443502299,
+          "market_cap": 1359826.82,
+          "volume_24h": 26232.54388308,
+          "premium_pct": -0.328
         },
         {
           "symbol": "WMSFTX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 500.0945654895194,
-          "market_cap": 146261.71,
-          "volume_24h": 525.04673088,
-          "premium_pct": 0.845
+          "price": 498.55930648955416,
+          "market_cap": 147732.46,
+          "volume_24h": 18941.70429967,
+          "premium_pct": 0.725
         },
         {
           "symbol": "MSFT.D",
@@ -336,10 +336,10 @@
           "symbol": "MSFT",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 494.9696500612759,
+          "price": 493.57880963938186,
           "market_cap": 0,
-          "volume_24h": 33269.9527447,
-          "premium_pct": -0.188
+          "volume_24h": 85963.49301361,
+          "premium_pct": -0.281
         },
         {
           "symbol": "MSFT",
@@ -348,70 +348,70 @@
           "price": 487.1809441311753,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -1.759
+          "premium_pct": -1.573
         }
       ]
     },
     "GOOGL": {
       "name": "Alphabet Inc Class A",
       "asset_type": "stock",
-      "average_tokenized_price": 341.6256050005754,
-      "tokenized_market_cap": 104573092.61704557,
-      "last_updated": "2026-09-13T04:49:25.633Z",
+      "average_tokenized_price": 336.26112296714,
+      "tokenized_market_cap": 103371540.85975601,
+      "last_updated": "2026-09-14T04:57:50.751Z",
       "tokens": [
         {
           "symbol": "GOOGLX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 341.53369994702354,
-          "market_cap": 36158069.94,
-          "volume_24h": 4367949.62854765,
-          "premium_pct": -0.027
+          "price": 336.33012593519754,
+          "market_cap": 35618615.88,
+          "volume_24h": 11573056.4799396,
+          "premium_pct": 0.021
         },
         {
           "symbol": "GOOGLB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 340.5721606385212,
-          "market_cap": 29359272.88,
-          "volume_24h": 2745117.40640016,
-          "premium_pct": -0.308
+          "price": 335.5975369626452,
+          "market_cap": 28969281.68,
+          "volume_24h": 3125954.45346602,
+          "premium_pct": -0.197
         },
         {
           "symbol": "GOOGLon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 341.5355397045193,
-          "market_cap": 20036663.43,
-          "volume_24h": 7698983.9678791,
-          "premium_pct": -0.026
+          "price": 336.69399070303683,
+          "market_cap": 19672599.82,
+          "volume_24h": 8617524.75716856,
+          "premium_pct": 0.129
         },
         {
           "symbol": "rGOOGL",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 340.8822440308798,
-          "market_cap": 13268619.6,
-          "volume_24h": 112886.26701841,
-          "premium_pct": -0.218
+          "price": 335.7063951980764,
+          "market_cap": 13121680.15,
+          "volume_24h": 302863.98583384,
+          "premium_pct": -0.165
         },
         {
           "symbol": "GOOGL",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 341.73346402216293,
-          "market_cap": 5419803.55,
-          "volume_24h": 53552016.98240115,
-          "premium_pct": 0.032
+          "price": 336.0872626351036,
+          "market_cap": 5640964.91,
+          "volume_24h": 13960683.3602848,
+          "premium_pct": -0.052
         },
         {
           "symbol": "WGOOGLX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 342.2490078552262,
-          "market_cap": 312717.78,
-          "volume_24h": 45352.09752641,
-          "premium_pct": 0.182
+          "price": 337.196172922947,
+          "market_cap": 336192.99,
+          "volume_24h": 92410.89043337,
+          "premium_pct": 0.278
         },
         {
           "symbol": "GOOGon",
@@ -420,7 +420,7 @@
           "price": 331.63005800660574,
           "market_cap": 109.42,
           "volume_24h": 0,
-          "premium_pct": -2.926
+          "premium_pct": -1.377
         },
         {
           "symbol": "GOOGL.D",
@@ -435,10 +435,10 @@
           "symbol": "GOOGL",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 341.1935443932338,
+          "price": 336.18919310146606,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -0.126
+          "premium_pct": -0.021
         },
         {
           "symbol": "GOOGL",
@@ -447,79 +447,79 @@
           "price": 336.13602564476923,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -1.607
+          "premium_pct": -0.037
         }
       ]
     },
     "AMZN": {
       "name": "Amazon.com Inc",
       "asset_type": "stock",
-      "average_tokenized_price": 256.81181303735144,
-      "tokenized_market_cap": 19868667.11649809,
-      "last_updated": "2026-09-13T04:49:25.251Z",
+      "average_tokenized_price": 254.4006954315676,
+      "tokenized_market_cap": 19727552.490068674,
+      "last_updated": "2026-09-14T04:57:50.387Z",
       "tokens": [
         {
           "symbol": "AMZNX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 256.60601399838527,
-          "market_cap": 8005643.77,
-          "volume_24h": 2309506.03772131,
-          "premium_pct": -0.08
+          "price": 254.38889095361944,
+          "market_cap": 7936412.07,
+          "volume_24h": 3888346.24478577,
+          "premium_pct": -0.005
         },
         {
           "symbol": "AMZNon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 256.56855393438724,
-          "market_cap": 6148144.99,
-          "volume_24h": 1824002.2991552,
-          "premium_pct": -0.095
+          "price": 254.3591207804974,
+          "market_cap": 6093862.9,
+          "volume_24h": 1882669.33275907,
+          "premium_pct": -0.016
         },
         {
           "symbol": "AMZN",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 256.67092197348103,
-          "market_cap": 3151687.66,
-          "volume_24h": 1966112.74713501,
-          "premium_pct": -0.055
+          "price": 254.50924496611347,
+          "market_cap": 3165108.28,
+          "volume_24h": 1180698.63060408,
+          "premium_pct": 0.043
         },
         {
           "symbol": "AMZNB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 256.670567630004,
-          "market_cap": 1710857.62,
-          "volume_24h": 1798462.12273497,
-          "premium_pct": -0.055
+          "price": 254.54758725255815,
+          "market_cap": 1721695.93,
+          "volume_24h": 2119057.46662688,
+          "premium_pct": 0.058
         },
         {
           "symbol": "rAMZN",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 256.7563690962838,
-          "market_cap": 793182.38,
-          "volume_24h": 689.43548822,
-          "premium_pct": -0.022
+          "price": 254.4814626176181,
+          "market_cap": 764788.48,
+          "volume_24h": 43038.86766078,
+          "premium_pct": 0.032
         },
         {
           "symbol": "WAMZNX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 256.40165752687227,
-          "market_cap": 49539.89,
+          "price": 254.32143242125676,
+          "market_cap": 48735.52,
           "volume_24h": 0,
-          "premium_pct": -0.16
+          "premium_pct": -0.031
         },
         {
           "symbol": "AMZN",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 256.74767492583686,
+          "price": 254.76285315334485,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -0.025
+          "premium_pct": 0.142
         },
         {
           "symbol": "AMZN",
@@ -528,70 +528,70 @@
           "price": 227.8245920827759,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -11.287
+          "premium_pct": -10.447
         }
       ]
     },
     "META": {
       "name": "Meta Platforms, Inc.",
       "asset_type": "stock",
-      "average_tokenized_price": 649.3534119693774,
-      "tokenized_market_cap": 30621578.906486634,
-      "last_updated": "2026-09-13T04:49:26.901Z",
+      "average_tokenized_price": 641.6512043621132,
+      "tokenized_market_cap": 32127059.272101376,
+      "last_updated": "2026-09-14T04:57:51.948Z",
       "tokens": [
         {
           "symbol": "METAon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 650.345486393099,
-          "market_cap": 10903163.93,
-          "volume_24h": 2106949.0914419,
-          "premium_pct": 0.153
+          "price": 642.56446379327,
+          "market_cap": 12773873.57,
+          "volume_24h": 5025302.23442502,
+          "premium_pct": 0.142
         },
         {
           "symbol": "METAX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 649.9761578837642,
-          "market_cap": 9951747.65,
-          "volume_24h": 3510287.33357407,
-          "premium_pct": 0.096
+          "price": 642.1469601038768,
+          "market_cap": 9818067.09,
+          "volume_24h": 2891043.09432806,
+          "premium_pct": 0.077
         },
         {
           "symbol": "METAB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 647.3306311385255,
-          "market_cap": 6216678.9,
-          "volume_24h": 1936170.46592914,
-          "premium_pct": -0.312
+          "price": 640.416664525623,
+          "market_cap": 6089707.97,
+          "volume_24h": 3123406.94522149,
+          "premium_pct": -0.192
         },
         {
           "symbol": "META",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 649.6153978675161,
-          "market_cap": 2293828.35,
-          "volume_24h": 11328355.49824606,
-          "premium_pct": 0.04
+          "price": 640.6535606713304,
+          "market_cap": 2262183.6,
+          "volume_24h": 1903949.28999141,
+          "premium_pct": -0.155
         },
         {
           "symbol": "rMETA",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 648.9339030011281,
-          "market_cap": 1143260.86,
-          "volume_24h": 17597.07872544,
-          "premium_pct": -0.065
+          "price": 640.53232064341,
+          "market_cap": 1053622.63,
+          "volume_24h": 261001.93578678,
+          "premium_pct": -0.174
         },
         {
           "symbol": "WMETAX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 653.5497880484629,
-          "market_cap": 130242.12,
-          "volume_24h": 820.31659206,
-          "premium_pct": 0.646
+          "price": 644.4308118343502,
+          "market_cap": 129624.83,
+          "volume_24h": 10451.16740849,
+          "premium_pct": 0.433
         },
         {
           "symbol": "META.D",
@@ -609,61 +609,61 @@
           "price": 651.1246269951957,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": 0.273
+          "premium_pct": 1.476
         }
       ]
     },
     "SPY": {
       "name": "SPDR S&P 500 ETF Trust",
       "asset_type": "etf",
-      "average_tokenized_price": 767.5448379191554,
-      "tokenized_market_cap": 144351756.13651732,
-      "last_updated": "2026-09-13T04:49:36.651Z",
+      "average_tokenized_price": 762.4279679652701,
+      "tokenized_market_cap": 142977136.168345,
+      "last_updated": "2026-09-14T04:58:00.951Z",
       "tokens": [
         {
           "symbol": "SPYX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 769.954571706639,
-          "market_cap": 59096163.1,
-          "volume_24h": 24727486.21109488,
-          "premium_pct": 0.314
+          "price": 764.1132137234198,
+          "market_cap": 58690079.54,
+          "volume_24h": 23125132.17835255,
+          "premium_pct": 0.221
         },
         {
           "symbol": "SPYon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 769.2385048889644,
-          "market_cap": 45185015.27,
-          "volume_24h": 1378757.97043055,
-          "premium_pct": 0.221
+          "price": 766.5555959701458,
+          "market_cap": 44686551.2,
+          "volume_24h": 2177805.83350012,
+          "premium_pct": 0.541
         },
         {
           "symbol": "SPY",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 764.4142289583291,
-          "market_cap": 25042475.39,
-          "volume_24h": 20816375.3819945,
-          "premium_pct": -0.408
+          "price": 760.9659406141537,
+          "market_cap": 24720580.5,
+          "volume_24h": 28429931.62116221,
+          "premium_pct": -0.192
         },
         {
           "symbol": "SPYB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 764.1937302843271,
-          "market_cap": 14114965.49,
-          "volume_24h": 2084809.84266928,
-          "premium_pct": -0.437
+          "price": 760.3975391029444,
+          "market_cap": 14035422.74,
+          "volume_24h": 3149764.64014409,
+          "premium_pct": -0.266
         },
         {
           "symbol": "rSPY",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 765.7104146007734,
-          "market_cap": 811958.32,
-          "volume_24h": 5382.23901688,
-          "premium_pct": -0.239
+          "price": 760.2653689530898,
+          "market_cap": 840078.06,
+          "volume_24h": 49051.54164556,
+          "premium_pct": -0.284
         },
         {
           "symbol": "SPY.D",
@@ -681,97 +681,97 @@
           "price": 759.80797395802,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -1.008
+          "premium_pct": -0.344
         },
         {
           "symbol": "SPY",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 764.5537010061747,
+          "price": 761.1171528128247,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -0.39
+          "premium_pct": -0.172
         },
         {
           "symbol": "wSPYx",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 769.6369677930286,
+          "price": 766.0338249650997,
           "market_cap": 0,
-          "volume_24h": 46052.77930723,
-          "premium_pct": 0.273
+          "volume_24h": 125201.70930649,
+          "premium_pct": 0.473
         }
       ]
     },
     "QQQ": {
       "name": "Invesco QQQ Trust",
       "asset_type": "etf",
-      "average_tokenized_price": 713.5325251560866,
-      "tokenized_market_cap": 124511982.76005362,
-      "last_updated": "2026-09-13T04:49:35.796Z",
+      "average_tokenized_price": 706.5725137084419,
+      "tokenized_market_cap": 125742977.95746095,
+      "last_updated": "2026-09-14T04:58:00.159Z",
       "tokens": [
         {
           "symbol": "QQQB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 713.2570565984438,
-          "market_cap": 49595219.29,
-          "volume_24h": 32187202.00574528,
-          "premium_pct": -0.039
+          "price": 706.3691880169263,
+          "market_cap": 50714546.4,
+          "volume_24h": 41192991.06394999,
+          "premium_pct": -0.029
         },
         {
           "symbol": "QQQX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 715.2397796793591,
-          "market_cap": 36241024.31,
-          "volume_24h": 1713189.46612413,
-          "premium_pct": 0.239
+          "price": 707.5206462511212,
+          "market_cap": 35921110.58,
+          "volume_24h": 1988791.2754909,
+          "premium_pct": 0.134
         },
         {
           "symbol": "QQQon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 716.1673295213991,
-          "market_cap": 31562906.51,
-          "volume_24h": 2062540.88485292,
-          "premium_pct": 0.369
+          "price": 708.6461624335344,
+          "market_cap": 31348335.43,
+          "volume_24h": 3110761.76452712,
+          "premium_pct": 0.293
         },
         {
           "symbol": "QQQ",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 714.7989744374557,
-          "market_cap": 4570100.84,
-          "volume_24h": 2152415.52341641,
-          "premium_pct": 0.177
+          "price": 707.1270249586704,
+          "market_cap": 5280991.5,
+          "volume_24h": 8153056.21764161,
+          "premium_pct": 0.078
         },
         {
           "symbol": "rQQQ",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 713.4653970834593,
-          "market_cap": 2567799.78,
-          "volume_24h": 31463.43882184,
-          "premium_pct": -0.009
+          "price": 705.762189577255,
+          "market_cap": 2482154.48,
+          "volume_24h": 325632.09090269,
+          "premium_pct": -0.115
         },
         {
           "symbol": "QQQ",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 713.4178880955134,
+          "price": 706.8427383549104,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -0.016
+          "premium_pct": 0.038
         },
         {
           "symbol": "QQQ",
           "issuer": "Hyperliquid Assets",
           "issuer_id": "699ed38db54c9320b15928e3",
-          "price": 699.9889944213279,
+          "price": 699.955514907869,
           "market_cap": 0,
-          "volume_24h": 0,
-          "premium_pct": -1.898
+          "volume_24h": 49.13477137,
+          "premium_pct": -0.936
         },
         {
           "symbol": null,
@@ -786,118 +786,118 @@
           "symbol": "wQQQx",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 716.2859949295549,
+          "price": 709.4177267730191,
           "market_cap": 0,
-          "volume_24h": 280540.10880476,
-          "premium_pct": 0.386
+          "volume_24h": 280209.38906348,
+          "premium_pct": 0.403
         }
       ]
     },
     "GOLD": {
       "name": "Gold",
       "asset_type": "commodity",
-      "average_tokenized_price": 4346.6313482068845,
-      "tokenized_market_cap": 4640158029.267841,
-      "last_updated": "2026-09-13T04:49:36.625Z",
+      "average_tokenized_price": 4324.895499982106,
+      "tokenized_market_cap": 4657840061.122732,
+      "last_updated": "2026-09-14T04:58:00.927Z",
       "tokens": [
         {
           "symbol": "XAUt",
           "issuer": "Tether Holdings",
           "issuer_id": "68904e9cabae9b5b9fb358ac",
-          "price": 4348.375030028101,
-          "market_cap": 2664787098.92,
-          "volume_24h": 56630146.92857239,
-          "premium_pct": 0.04
+          "price": 4325.143969169806,
+          "market_cap": 2693801994.88,
+          "volume_24h": 128938668.24256401,
+          "premium_pct": 0.006
         },
         {
           "symbol": "PAXG",
           "issuer": "Paxos",
           "issuer_id": "68904c24abae9b5b9fb35815",
-          "price": 4353.7398608310705,
-          "market_cap": 1884762714.08,
-          "volume_24h": 36529225.6748786,
-          "premium_pct": 0.164
+          "price": 4327.965117851323,
+          "market_cap": 1873604657.76,
+          "volume_24h": 88024514.6184295,
+          "premium_pct": 0.071
         },
         {
           "symbol": "XAUM",
           "issuer": "Matrixdock",
           "issuer_id": "68905a7babae9b5b9fb35a8d",
-          "price": 4339.411592234877,
-          "market_cap": 47620369.54,
-          "volume_24h": 427072.11953991,
-          "premium_pct": -0.166
+          "price": 4319.685440311487,
+          "market_cap": 47403896.27,
+          "volume_24h": 470414.93699201,
+          "premium_pct": -0.12
         },
         {
           "symbol": "CGO",
           "issuer": "Comtech Gold",
           "issuer_id": "68904cceabae9b5b9fb35839",
-          "price": 138.52654090054418,
-          "market_cap": 19532242.27,
-          "volume_24h": 886754.53715779,
-          "premium_pct": -96.813
+          "price": 139.19411799105407,
+          "market_cap": 19626370.64,
+          "volume_24h": 884254.16009341,
+          "premium_pct": -96.782
         },
         {
           "symbol": "XAUT0",
           "issuer": "Tether Holdings",
           "issuer_id": "68904e9cabae9b5b9fb358ac",
-          "price": 4355.771766590971,
-          "market_cap": 17340206.94,
-          "volume_24h": 108551.16538589,
-          "premium_pct": 0.21
+          "price": 4326.850936792538,
+          "market_cap": 17324571.58,
+          "volume_24h": 356549.47415218,
+          "premium_pct": 0.045
         },
         {
           "symbol": "VNXAU",
           "issuer": "VNX",
           "issuer_id": "68905b43abae9b5b9fb35a95",
-          "price": 140.0495609297725,
-          "market_cap": 5896086.52,
-          "volume_24h": 508.84602869,
-          "premium_pct": -96.778
+          "price": 140.17736520986188,
+          "market_cap": 5901467.08,
+          "volume_24h": 687.46644895,
+          "premium_pct": -96.759
         },
         {
           "symbol": "XAU",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 4354.927333673499,
+          "price": 4327.228379551033,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": 0.191
+          "premium_pct": 0.054
         }
       ]
     },
     "SILVER": {
       "name": "Silver",
       "asset_type": "commodity",
-      "average_tokenized_price": 39.359289260318675,
+      "average_tokenized_price": 39.35420054081005,
       "tokenized_market_cap": 0,
-      "last_updated": "2026-09-13T04:49:35.725Z",
+      "last_updated": "2026-09-14T04:58:00.094Z",
       "tokens": [
         {
           "symbol": "KAG",
           "issuer": "Kinesis Assets",
           "issuer_id": "68e25e8dd4cd001228754c7c",
-          "price": 39.359289260318675,
+          "price": 39.36653343140839,
           "market_cap": 0,
-          "volume_24h": 117337.32938596,
-          "premium_pct": 0.0
+          "volume_24h": 231556.02409442,
+          "premium_pct": 0.031
         },
         {
           "symbol": "XAGX",
           "issuer": "XAGx",
           "issuer_id": "68e27862d4cd001228754d31",
-          "price": 64.37445127443735,
+          "price": 63.70869593916931,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": 63.556
+          "premium_pct": 61.885
         },
         {
           "symbol": "GRAMS",
           "issuer": "Token",
           "issuer_id": "68e27c8ad4cd001228754d67",
-          "price": 2.0836084668311554,
+          "price": 2.058462754815292,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -94.706
+          "premium_pct": -94.769
         },
         {
           "symbol": null,
@@ -912,73 +912,73 @@
           "symbol": "XAG",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 64.54282407466218,
+          "price": 63.90913313373912,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": 63.984
+          "premium_pct": 62.395
         }
       ]
     },
     "COIN": {
       "name": "Coinbase Global, Inc.",
       "asset_type": "stock",
-      "average_tokenized_price": 175.35529368267618,
-      "tokenized_market_cap": 41879769.27018114,
-      "last_updated": "2026-09-13T04:48:40.962Z",
+      "average_tokenized_price": 176.78391972560462,
+      "tokenized_market_cap": 42258376.274810426,
+      "last_updated": "2026-09-14T04:58:03.496Z",
       "tokens": [
         {
           "symbol": "COINB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 175.24775716166957,
-          "market_cap": 16094135.6,
-          "volume_24h": 1665952.15179429,
-          "premium_pct": -0.061
+          "price": 176.94241365486064,
+          "market_cap": 16308045.93,
+          "volume_24h": 1980832.18186002,
+          "premium_pct": 0.09
         },
         {
           "symbol": "COINX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 175.02804527296064,
-          "market_cap": 11665341.54,
-          "volume_24h": 1571072.6013115,
-          "premium_pct": -0.187
+          "price": 176.7401435206661,
+          "market_cap": 11785657.84,
+          "volume_24h": 3568222.74339003,
+          "premium_pct": -0.025
         },
         {
           "symbol": "COINon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 175.7992017923324,
-          "market_cap": 8618177.29,
-          "volume_24h": 1777818.88826758,
-          "premium_pct": 0.253
+          "price": 176.62903792169396,
+          "market_cap": 8660250.53,
+          "volume_24h": 1922576.07996555,
+          "premium_pct": -0.088
         },
         {
           "symbol": "rCOIN",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 175.7006492063323,
-          "market_cap": 3037480,
-          "volume_24h": 26298.62354332,
-          "premium_pct": 0.197
+          "price": 176.5863679556066,
+          "market_cap": 3011504.99,
+          "volume_24h": 104724.79096932,
+          "premium_pct": -0.112
         },
         {
           "symbol": "COIN",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 175.0984482362941,
-          "market_cap": 2270461.31,
-          "volume_24h": 408762.89415196,
-          "premium_pct": -0.146
+          "price": 176.81478919838557,
+          "market_cap": 2292716.7,
+          "volume_24h": 575410.79774126,
+          "premium_pct": 0.017
         },
         {
           "symbol": "WCOINX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 175.8507516029318,
-          "market_cap": 194173.54,
-          "volume_24h": 0,
-          "premium_pct": 0.283
+          "price": 177.64992055518752,
+          "market_cap": 194809.24,
+          "volume_24h": 74894.34904605,
+          "premium_pct": 0.49
         },
         {
           "symbol": "COIN.D",
@@ -993,154 +993,154 @@
           "symbol": "COIN",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 175.32938835064422,
+          "price": 177.0048654288166,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": -0.015
+          "premium_pct": 0.125
         }
       ]
     },
     "MSTR": {
       "name": "MicroStrategy Inc",
       "asset_type": "stock",
-      "average_tokenized_price": 130.11019892193437,
-      "tokenized_market_cap": 161405916.12965387,
-      "last_updated": "2026-09-13T04:49:25.147Z",
+      "average_tokenized_price": 130.69813546466133,
+      "tokenized_market_cap": 162491979.2257607,
+      "last_updated": "2026-09-14T04:57:50.282Z",
       "tokens": [
         {
           "symbol": "MSTRX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 130.0122087189413,
-          "market_cap": 70746539.27,
-          "volume_24h": 1407808.76892731,
-          "premium_pct": -0.075
+          "price": 130.7323212707802,
+          "market_cap": 71223753.55,
+          "volume_24h": 3954869.96008131,
+          "premium_pct": 0.026
         },
         {
           "symbol": "MSTRB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 129.9482585803642,
-          "market_cap": 50826288.72,
-          "volume_24h": 5147331.09274781,
-          "premium_pct": -0.124
+          "price": 130.64175131627348,
+          "market_cap": 51245576.07,
+          "volume_24h": 11657030.40831436,
+          "premium_pct": -0.043
         },
         {
           "symbol": "MSTRon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 130.41876633804617,
-          "market_cap": 25400111.1,
-          "volume_24h": 2023973.52755545,
-          "premium_pct": 0.237
+          "price": 130.39796795575543,
+          "market_cap": 25431098.77,
+          "volume_24h": 2679606.75121756,
+          "premium_pct": -0.23
         },
         {
           "symbol": "rMSTR",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 130.09345935260325,
-          "market_cap": 10260557.18,
-          "volume_24h": 84940.98317891,
-          "premium_pct": -0.013
+          "price": 130.53971318592306,
+          "market_cap": 10303222.79,
+          "volume_24h": 300992.735734,
+          "premium_pct": -0.121
         },
         {
           "symbol": "MSTR",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 130.48260537920896,
-          "market_cap": 3882525.99,
-          "volume_24h": 1176911.82689329,
-          "premium_pct": 0.286
+          "price": 131.16694355928487,
+          "market_cap": 3994705.41,
+          "volume_24h": 1312221.837008,
+          "premium_pct": 0.359
         },
         {
           "symbol": "WMSTRX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 130.31003913383634,
-          "market_cap": 242526.16,
-          "volume_24h": 5932.10220746,
-          "premium_pct": 0.154
+          "price": 130.68829093153047,
+          "market_cap": 246295.03,
+          "volume_24h": 80247.95642923,
+          "premium_pct": -0.008
         },
         {
           "symbol": "MSTR",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 130.0440846294067,
+          "price": 130.76580392885262,
           "market_cap": 0,
-          "volume_24h": 1094698.20842659,
-          "premium_pct": -0.051
+          "volume_24h": 2702707.43606496,
+          "premium_pct": 0.052
         }
       ]
     },
     "CRCL": {
       "name": "Circle Internet Group Inc",
       "asset_type": "stock",
-      "average_tokenized_price": 91.0401384615158,
-      "tokenized_market_cap": 296087693.1348218,
-      "last_updated": "2026-09-13T04:48:38.996Z",
+      "average_tokenized_price": 91.72736991272701,
+      "tokenized_market_cap": 300958999.7337141,
+      "last_updated": "2026-09-14T04:58:01.780Z",
       "tokens": [
         {
           "symbol": "CRCLon",
           "issuer": "Ondo Assets",
           "issuer_id": "688ca4ccabae9b5b9fb3167a",
-          "price": 91.01501447323616,
-          "market_cap": 110184326.1,
-          "volume_24h": 5186877.67215061,
-          "premium_pct": -0.028
+          "price": 91.71615060310221,
+          "market_cap": 111152908.25,
+          "volume_24h": 4641577.92685714,
+          "premium_pct": -0.012
         },
         {
           "symbol": "CRCLB",
           "issuer": "bStocks",
           "issuer_id": "6a2aed5097c45356b1a5f710",
-          "price": 91.01331488200172,
-          "market_cap": 92399913.94,
-          "volume_24h": 4711164.14291685,
-          "premium_pct": -0.029
+          "price": 91.78053159404102,
+          "market_cap": 93386018.8,
+          "volume_24h": 14292148.42506566,
+          "premium_pct": 0.058
         },
         {
           "symbol": "CRCLX",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 91.05106979487981,
-          "market_cap": 75248659.43,
-          "volume_24h": 8492622.75010723,
-          "premium_pct": 0.012
+          "price": 91.86640372655333,
+          "market_cap": 76041795.66,
+          "volume_24h": 14855810.48582921,
+          "premium_pct": 0.152
         },
         {
           "symbol": "rCRCL",
           "issuer": "Reality",
           "issuer_id": "6a43600c282e7240b76c8bbb",
-          "price": 90.9944414837005,
-          "market_cap": 15829092.58,
-          "volume_24h": 215749.60565651,
-          "premium_pct": -0.05
+          "price": 91.58255749481124,
+          "market_cap": 15868795.63,
+          "volume_24h": 798364.96699956,
+          "premium_pct": -0.158
         },
         {
           "symbol": "CRCL",
           "issuer": "Robinhood",
           "issuer_id": "6a465832fbe3004b1a0ea2dd",
-          "price": 91.27536896254388,
-          "market_cap": 2425701.07,
-          "volume_24h": 738461.86443614,
-          "premium_pct": 0.258
+          "price": 92.34312114764332,
+          "market_cap": 4821500.3,
+          "volume_24h": 9649193.71564344,
+          "premium_pct": 0.671
         },
         {
           "symbol": "CRCL",
           "issuer": "NA (Derivatives)",
           "issuer_id": "695e11f774b54210f3b95dc3",
-          "price": 91.06188595062389,
+          "price": 91.85108815431887,
           "market_cap": 0,
           "volume_24h": 0,
-          "premium_pct": 0.024
+          "premium_pct": 0.135
         },
         {
           "symbol": "wCRCLx",
           "issuer": "Backed Assets",
           "issuer_id": "6878977dcbbf471de3366e85",
-          "price": 91.25330674312116,
+          "price": 91.70478019580335,
           "market_cap": 0,
-          "volume_24h": 0,
-          "premium_pct": 0.234
+          "volume_24h": 136068.77477505,
+          "premium_pct": -0.025
         }
       ]
     }
