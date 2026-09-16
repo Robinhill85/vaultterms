@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-15T04:56:05+00:00",
+  "as_of": "2026-09-16T04:50:39+00:00",
   "total": 24,
   "issuers": [
     {
@@ -44,7 +44,7 @@
       "name": "bStocks",
       "website": null,
       "logo": "https://s2.coinmarketcap.com/static/img/issuer/Untitled_design__2_.png",
-      "num_tokens": 75
+      "num_tokens": 77
     },
     {
       "issuer_id": "6a43600c282e7240b76c8bbb",
@@ -72,7 +72,7 @@
       "name": "Backpack",
       "website": "https://backpack.exchange",
       "logo": "https://s2.coinmarketcap.com/static/img/issuer/M7sS2GzR_400x400.png",
-      "num_tokens": 6
+      "num_tokens": 7
     },
     {
       "issuer_id": "6a436076282e7240b76c8bf9",
