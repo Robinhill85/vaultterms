@@ -1,92 +1,92 @@
 {
   "schema_version": 2,
-  "as_of": "2026-09-18T04:45:10+00:00",
+  "as_of": "2026-09-19T04:39:02+00:00",
   "types": {
     "stock": {
       "count": 4812,
-      "tokenized_market_cap_top50": 1900762686,
-      "volume_24h_top50": 914879732,
+      "tokenized_market_cap_top50": 1947538913,
+      "volume_24h_top50": 967202074,
       "top": [
         {
           "symbol": "CRCL",
           "name": "Circle Internet Group Inc",
           "rwa_id": 115,
-          "rwa_rank": 571,
-          "tokenized_market_cap": 311151916.3435104,
-          "average_tokenized_price": 86.01022376557849,
-          "tokenized_volume_24h": 120569834.00935802
+          "rwa_rank": 540,
+          "tokenized_market_cap": 330440557.23947483,
+          "average_tokenized_price": 92.3806197036076,
+          "tokenized_volume_24h": 109610511.91065034
         },
         {
           "symbol": "SPCX",
           "name": "SpaceX",
           "rwa_id": 9,
           "rwa_rank": 9,
-          "tokenized_market_cap": 213295909.60294116,
-          "average_tokenized_price": 154.87077867520884,
-          "tokenized_volume_24h": 56931001.21243192
+          "tokenized_market_cap": 213777840.91214514,
+          "average_tokenized_price": 152.37460954625212,
+          "tokenized_volume_24h": 71906395.08210137
         },
         {
           "symbol": "MSTR",
           "name": "MicroStrategy Inc",
           "rwa_id": 114,
-          "rwa_rank": 311,
-          "tokenized_market_cap": 171813176.0933611,
-          "average_tokenized_price": 134.7418227797489,
-          "tokenized_volume_24h": 53990652.12680415
+          "rwa_rank": 273,
+          "tokenized_market_cap": 195965485.411617,
+          "average_tokenized_price": 155.3103633859183,
+          "tokenized_volume_24h": 63426451.5382036
         },
         {
           "symbol": "NVDA",
           "name": "Nvidia Corp",
           "rwa_id": 2,
           "rwa_rank": 2,
-          "tokenized_market_cap": 134598534.82010132,
-          "average_tokenized_price": 220.25884798208295,
-          "tokenized_volume_24h": 83645106.40781744
+          "tokenized_market_cap": 135765888.28330067,
+          "average_tokenized_price": 222.30065520883048,
+          "tokenized_volume_24h": 77769548.11967541
         },
         {
           "symbol": "MU",
           "name": "Micron Technology Inc",
           "rwa_id": 12,
           "rwa_rank": 14,
-          "tokenized_market_cap": 121640049.35554211,
-          "average_tokenized_price": 984.706726276656,
-          "tokenized_volume_24h": 29384726.70860847
+          "tokenized_market_cap": 124226109.02621166,
+          "average_tokenized_price": 1008.7425534972804,
+          "tokenized_volume_24h": 31335501.46908104
         },
         {
           "symbol": "TSLA",
           "name": "Tesla, Inc.",
           "rwa_id": 14,
           "rwa_rank": 12,
-          "tokenized_market_cap": 115608766.74094743,
-          "average_tokenized_price": 367.208023828976,
-          "tokenized_volume_24h": 32897327.04449934
+          "tokenized_market_cap": 116562498.45159051,
+          "average_tokenized_price": 364.61928913741167,
+          "tokenized_volume_24h": 37938091.31951291
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet Inc Class A",
           "rwa_id": 4,
           "rwa_rank": 4,
-          "tokenized_market_cap": 98429483.20653486,
-          "average_tokenized_price": 352.0597066813345,
-          "tokenized_volume_24h": 68790759.02410968
+          "tokenized_market_cap": 97068037.92085816,
+          "average_tokenized_price": 350.9244260799499,
+          "tokenized_volume_24h": 54430953.24266749
         },
         {
           "symbol": "SNDK",
           "name": "SanDisk Corp",
           "rwa_id": 48,
-          "rwa_rank": 63,
-          "tokenized_market_cap": 75262727.24889244,
-          "average_tokenized_price": 1629.6796321860832,
-          "tokenized_volume_24h": 68000992.70879158
+          "rwa_rank": 54,
+          "tokenized_market_cap": 63498293.56239193,
+          "average_tokenized_price": 1781.255109031603,
+          "tokenized_volume_24h": 117774881.55158015
         },
         {
           "symbol": "INTC",
           "name": "Intel Corp",
           "rwa_id": 20,
           "rwa_rank": 24,
-          "tokenized_market_cap": 54742834.11253781,
-          "average_tokenized_price": 110.32735507007925,
-          "tokenized_volume_24h": 17555150.74002543
+          "tokenized_market_cap": 54425618.956582986,
+          "average_tokenized_price": 108.61902641727461,
+          "tokenized_volume_24h": 16626985.95869522
         },
         {
           "symbol": "HON",
@@ -101,62 +101,62 @@
           "symbol": "COIN",
           "name": "Coinbase Global, Inc.",
           "rwa_id": 82,
-          "rwa_rank": 341,
-          "tokenized_market_cap": 43112543.98506939,
-          "average_tokenized_price": 175.69637644259527,
-          "tokenized_volume_24h": 17655559.31444477
+          "rwa_rank": 317,
+          "tokenized_market_cap": 46111123.77920933,
+          "average_tokenized_price": 194.60823087208522,
+          "tokenized_volume_24h": 27937142.3641994
         },
         {
           "symbol": "MRVL",
           "name": "Marvell Technology Inc",
           "rwa_id": 70,
-          "rwa_rank": 70,
-          "tokenized_market_cap": 38611878.69334918,
-          "average_tokenized_price": 241.5311268782516,
-          "tokenized_volume_24h": 9722683.07678863
+          "rwa_rank": 69,
+          "tokenized_market_cap": 37594563.043150745,
+          "average_tokenized_price": 242.27056749728953,
+          "tokenized_volume_24h": 8789381.46225021
         },
         {
           "symbol": "SKHY",
           "name": "SK Hynix",
           "rwa_id": 8065,
           "rwa_rank": 13,
-          "tokenized_market_cap": 35468842.81624615,
-          "average_tokenized_price": 185.90009722827156,
-          "tokenized_volume_24h": 11847987.57483037
+          "tokenized_market_cap": 35735969.4922559,
+          "average_tokenized_price": 186.677746612944,
+          "tokenized_volume_24h": 13846941.01629681
         },
         {
           "symbol": "AAPL",
           "name": "Apple Inc.",
           "rwa_id": 3,
           "rwa_rank": 3,
-          "tokenized_market_cap": 35372112.96394622,
-          "average_tokenized_price": 336.3848491545766,
-          "tokenized_volume_24h": 33278140.24759165
+          "tokenized_market_cap": 35617069.03337397,
+          "average_tokenized_price": 335.30060875221943,
+          "tokenized_volume_24h": 29284686.87117593
         },
         {
-          "symbol": "META",
-          "name": "Meta Platforms, Inc.",
-          "rwa_id": 10,
-          "rwa_rank": 10,
-          "tokenized_market_cap": 31007577.804318313,
-          "average_tokenized_price": 684.53045974162,
-          "tokenized_volume_24h": 59114684.84927886
+          "symbol": "HIMS",
+          "name": "Hims & Hers Health Inc",
+          "rwa_id": 125,
+          "rwa_rank": 1164,
+          "tokenized_market_cap": 30708942.027380306,
+          "average_tokenized_price": 27.986226913544083,
+          "tokenized_volume_24h": 8328915.07813991
         }
       ]
     },
     "commodity": {
       "count": 4,
-      "tokenized_market_cap_top50": 4696331744,
-      "volume_24h_top50": 430505517,
+      "tokenized_market_cap_top50": 4714820196,
+      "volume_24h_top50": 401242039,
       "top": [
         {
           "symbol": "GOLD",
           "name": "Gold",
           "rwa_id": 1,
           "rwa_rank": 1,
-          "tokenized_market_cap": 4696331744.298131,
-          "average_tokenized_price": 4354.308524874178,
-          "tokenized_volume_24h": 430368688.0387258
+          "tokenized_market_cap": 4714820195.613565,
+          "average_tokenized_price": 4371.042079373719,
+          "tokenized_volume_24h": 401078661.9341615
         },
         {
           "symbol": "SILVER",
@@ -164,8 +164,8 @@
           "rwa_id": 5,
           "rwa_rank": 5,
           "tokenized_market_cap": 0,
-          "average_tokenized_price": 32.790530413784644,
-          "tokenized_volume_24h": 136828.85465165
+          "average_tokenized_price": 30.179489382821735,
+          "tokenized_volume_24h": 163376.78945
         },
         {
           "symbol": "CL",
@@ -173,7 +173,7 @@
           "rwa_id": 186,
           "rwa_rank": 4668,
           "tokenized_market_cap": 0,
-          "average_tokenized_price": 96.3886514774834,
+          "average_tokenized_price": 95.9207117841281,
           "tokenized_volume_24h": 0
         },
         {
@@ -182,7 +182,7 @@
           "rwa_id": 16388,
           "rwa_rank": 4667,
           "tokenized_market_cap": 0,
-          "average_tokenized_price": 1307.9051623402806,
+          "average_tokenized_price": 1305.0094588812933,
           "tokenized_volume_24h": 0
         }
       ]
@@ -201,143 +201,143 @@
     },
     "etf": {
       "count": 3126,
-      "tokenized_market_cap_top50": 633037460,
-      "volume_24h_top50": 233014901,
+      "tokenized_market_cap_top50": 639005185,
+      "volume_24h_top50": 484587629,
       "top": [
         {
           "symbol": "SPY",
           "name": "SPDR S&P 500 ETF Trust",
           "rwa_id": 86,
           "rwa_rank": 7811,
-          "tokenized_market_cap": 146400967.74823222,
-          "average_tokenized_price": 763.4444266404929,
-          "tokenized_volume_24h": 84313871.84867617
+          "tokenized_market_cap": 152325749.9808619,
+          "average_tokenized_price": 762.4901288585612,
+          "tokenized_volume_24h": 318752542.711454
         },
         {
           "symbol": "QQQ",
           "name": "Invesco QQQ Trust",
           "rwa_id": 118,
           "rwa_rank": 7810,
-          "tokenized_market_cap": 133310181.783012,
-          "average_tokenized_price": 717.7479603843906,
-          "tokenized_volume_24h": 40555001.83032459
+          "tokenized_market_cap": 133518783.51735052,
+          "average_tokenized_price": 721.9240358370215,
+          "tokenized_volume_24h": 44762411.05076374
         },
         {
           "symbol": "IVV",
           "name": "iShares Core S&P 500 ETF",
           "rwa_id": 141,
           "rwa_rank": 7796,
-          "tokenized_market_cap": 69718051.21825469,
-          "average_tokenized_price": 772.3095082251721,
-          "tokenized_volume_24h": 489.62761667
+          "tokenized_market_cap": 69719641.62581344,
+          "average_tokenized_price": 772.3361508200309,
+          "tokenized_volume_24h": 3653.55116364
         },
         {
           "symbol": "SOXL",
           "name": "Direxion Daily Semiconductor Bull 3X ETF",
           "rwa_id": 7750,
           "rwa_rank": 5291,
-          "tokenized_market_cap": 27661783.309697162,
-          "average_tokenized_price": 115.05449580813729,
-          "tokenized_volume_24h": 16162400.58730758
+          "tokenized_market_cap": 27182486.926514953,
+          "average_tokenized_price": 121.10525872922972,
+          "tokenized_volume_24h": 17274572.98209267
         },
         {
           "symbol": "SLV",
           "name": "iShares Silver Trust",
           "rwa_id": 205,
           "rwa_rank": 7795,
-          "tokenized_market_cap": 26728916.276197143,
-          "average_tokenized_price": 59.557559840273264,
-          "tokenized_volume_24h": 4327294.81652914
+          "tokenized_market_cap": 26834056.1213123,
+          "average_tokenized_price": 60.0610323653084,
+          "tokenized_volume_24h": 4121862.21902207
         },
         {
           "symbol": "DRAM",
           "name": "Roundhill Memory ETF",
           "rwa_id": 4789,
           "rwa_rank": 7110,
-          "tokenized_market_cap": 20211907.683202814,
-          "average_tokenized_price": 58.12305500507318,
-          "tokenized_volume_24h": 3114812.95581052
+          "tokenized_market_cap": 20945217.740732282,
+          "average_tokenized_price": 59.322174868252134,
+          "tokenized_volume_24h": 3307103.77544117
         },
         {
           "symbol": "TLT",
           "name": "iShares 20+ Year Treasury Bond ETF",
           "rwa_id": 204,
           "rwa_rank": 7797,
-          "tokenized_market_cap": 19079114.742467467,
-          "average_tokenized_price": 85.3007022585823,
-          "tokenized_volume_24h": 1604832.96142187
+          "tokenized_market_cap": 18903116.262038875,
+          "average_tokenized_price": 84.53562901812147,
+          "tokenized_volume_24h": 1599236.68652045
         },
         {
           "symbol": "IEFA",
           "name": "iShares Core MSCI EAFE ETF",
           "rwa_id": 95,
           "rwa_rank": 7802,
-          "tokenized_market_cap": 17205066.737659015,
-          "average_tokenized_price": 100.59570878711631,
-          "tokenized_volume_24h": 1953668.75799118
-        },
-        {
-          "symbol": "AGG",
-          "name": "iShares Core US Aggregate Bond ETF",
-          "rwa_id": 96,
-          "rwa_rank": 7801,
-          "tokenized_market_cap": 14185372.607546834,
-          "average_tokenized_price": 99.83771672868835,
-          "tokenized_volume_24h": 354911.78348694
+          "tokenized_market_cap": 17105049.420366194,
+          "average_tokenized_price": 100.71338856633395,
+          "tokenized_volume_24h": 1612756.24005025
         },
         {
           "symbol": "GLD",
           "name": "SPDR Gold Trust",
           "rwa_id": 87,
           "rwa_rank": 7809,
-          "tokenized_market_cap": 14129935.340897642,
-          "average_tokenized_price": 399.60718361804385,
-          "tokenized_volume_24h": 17076875.73020469
+          "tokenized_market_cap": 14288502.793396614,
+          "average_tokenized_price": 401.27766172744845,
+          "tokenized_volume_24h": 18271832.85895428
         },
         {
-          "symbol": "TQQQ",
-          "name": "ProShares UltraPro QQQ",
-          "rwa_id": 211,
-          "rwa_rank": 7792,
-          "tokenized_market_cap": 13630729.942149699,
-          "average_tokenized_price": 71.6290369461619,
-          "tokenized_volume_24h": 4425643.00950198
+          "symbol": "AGG",
+          "name": "iShares Core US Aggregate Bond ETF",
+          "rwa_id": 96,
+          "rwa_rank": 7801,
+          "tokenized_market_cap": 13958407.760302577,
+          "average_tokenized_price": 98.04243346238185,
+          "tokenized_volume_24h": 311261.48948095
         },
         {
           "symbol": "SGOV",
           "name": "iShares 0-3 Month Treasury Bond ETF",
           "rwa_id": 242,
           "rwa_rank": 7773,
-          "tokenized_market_cap": 13411009.35194638,
-          "average_tokenized_price": 100.60326131386529,
-          "tokenized_volume_24h": 1730052.62692298
+          "tokenized_market_cap": 13301422.973109825,
+          "average_tokenized_price": 101.65120159120366,
+          "tokenized_volume_24h": 5468532.84814366
+        },
+        {
+          "symbol": "TQQQ",
+          "name": "ProShares UltraPro QQQ",
+          "rwa_id": 211,
+          "rwa_rank": 7792,
+          "tokenized_market_cap": 12705240.096382208,
+          "average_tokenized_price": 72.66222523433788,
+          "tokenized_volume_24h": 5177155.4979372
         },
         {
           "symbol": "ITOT",
           "name": "iShares Core S&P Total US Stock Market ETF",
           "rwa_id": 89,
           "rwa_rank": 7806,
-          "tokenized_market_cap": 12744206.522065954,
-          "average_tokenized_price": 168.80282436757582,
-          "tokenized_volume_24h": 300.85125241
+          "tokenized_market_cap": 12621732.175682869,
+          "average_tokenized_price": 168.1148292453195,
+          "tokenized_volume_24h": 70931.51011608
         },
         {
           "symbol": "EWY",
           "name": "iShares MSCI South Korea ETF",
           "rwa_id": 1062,
           "rwa_rank": 7766,
-          "tokenized_market_cap": 12689418.29848713,
-          "average_tokenized_price": 181.21287643717946,
-          "tokenized_volume_24h": 4061222.29357065
+          "tokenized_market_cap": 12589721.911099441,
+          "average_tokenized_price": 180.60125456387723,
+          "tokenized_volume_24h": 3769479.99316005
         },
         {
           "symbol": "EFA",
           "name": "iShares MSCI EAFE ETF",
           "rwa_id": 94,
           "rwa_rank": 7803,
-          "tokenized_market_cap": 11300432.0432883,
-          "average_tokenized_price": 108.09957835862654,
-          "tokenized_volume_24h": 154.2089874
+          "tokenized_market_cap": 11265017.49270392,
+          "average_tokenized_price": 107.75996373063614,
+          "tokenized_volume_24h": 87.82678642
         }
       ]
     },
