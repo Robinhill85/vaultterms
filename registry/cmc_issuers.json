@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-21T04:57:44+00:00",
+  "as_of": "2026-09-22T04:58:30+00:00",
   "total": 24,
   "issuers": [
     {
@@ -15,7 +15,7 @@
       "name": "Ondo Assets",
       "website": "https://ondo.finance/",
       "logo": null,
-      "num_tokens": 551,
+      "num_tokens": 558,
       "ledger_vault_id": "ondo-global-markets"
     },
     {
@@ -23,7 +23,7 @@
       "name": "NA (Derivatives)",
       "website": null,
       "logo": null,
-      "num_tokens": 248
+      "num_tokens": 249
     },
     {
       "issuer_id": "6a465832fbe3004b1a0ea2dd",
