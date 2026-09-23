@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-22T04:58:30+00:00",
+  "as_of": "2026-09-23T04:46:27+00:00",
   "total": 24,
   "issuers": [
     {
@@ -23,7 +23,7 @@
       "name": "NA (Derivatives)",
       "website": null,
       "logo": null,
-      "num_tokens": 249
+      "num_tokens": 250
     },
     {
       "issuer_id": "6a465832fbe3004b1a0ea2dd",
@@ -44,7 +44,7 @@
       "name": "bStocks",
       "website": null,
       "logo": "https://s2.coinmarketcap.com/static/img/issuer/Untitled_design__2_.png",
-      "num_tokens": 77
+      "num_tokens": 80
     },
     {
       "issuer_id": "6a43600c282e7240b76c8bbb",
