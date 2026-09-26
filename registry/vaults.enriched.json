@@ -58,9 +58,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 987784166,
-      "apy_pct": 3.7729,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 987884399,
+      "apy_pct": 3.78616,
       "tvl_scope": "project_reference_pool",
       "tvl_source": "DeFiLlama largest pool for project",
       "apy_scope": "project_reference_pool",
@@ -123,9 +123,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 2388919856,
-      "apy_pct": 3.23735,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 2360686955,
+      "apy_pct": 3.24399,
       "tvl_scope": "project_reference_pool",
       "tvl_source": "DeFiLlama largest pool for project",
       "apy_scope": "project_reference_pool",
@@ -194,8 +194,8 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 1191784488,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 1192400879,
       "apy_pct": 3.59,
       "tvl_scope": "project_reference_pool",
       "tvl_source": "DeFiLlama largest pool for project",
@@ -259,8 +259,8 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 1191784488,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 1192400879,
       "apy_pct": 3.59,
       "tvl_scope": "project_reference_pool",
       "tvl_source": "DeFiLlama largest pool for project",
@@ -328,7 +328,7 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": null,
       "apy_pct": null
     }
@@ -383,9 +383,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 547240873.8574058,
-      "apy_pct": 3.54672,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 543639792.0064735,
+      "apy_pct": 3.55095,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total",
       "apy_scope": "project_reference_pool",
@@ -454,7 +454,7 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": null,
       "apy_pct": null,
       "tvl_scope": "protocol",
@@ -518,9 +518,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": 62689465,
-      "apy_pct": 3.44144,
+      "apy_pct": 3.31636,
       "tvl_scope": "project_reference_pool",
       "tvl_source": "DeFiLlama largest pool for project",
       "apy_scope": "project_reference_pool",
@@ -586,7 +586,7 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": null,
       "apy_pct": null,
       "tvl_scope": "protocol",
@@ -646,9 +646,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 72825055,
-      "apy_pct": 3.37,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 72830385,
+      "apy_pct": 3.44,
       "tvl_scope": "project_reference_pool",
       "tvl_source": "DeFiLlama largest pool for project",
       "apy_scope": "project_reference_pool",
@@ -708,8 +708,8 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 266224143.49657318,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 267222674.5464721,
       "apy_pct": null,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total"
@@ -766,9 +766,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 440190361,
-      "apy_pct": 6.27073,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 437075327,
+      "apy_pct": 6.29056,
       "tvl_scope": "project_reference_pool",
       "tvl_source": "DeFiLlama largest pool for project",
       "apy_scope": "project_reference_pool",
@@ -832,9 +832,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 2999515036.2380095,
-      "apy_pct": 5.16634,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 3003560950.821683,
+      "apy_pct": 5.25731,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total",
       "apy_scope": "project_reference_pool",
@@ -902,8 +902,8 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 333991517.3375786,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 334060630.2154901,
       "apy_pct": null,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total"
@@ -950,8 +950,8 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 2083025.2800771487,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 2068793.1174169616,
       "apy_pct": null,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total"
@@ -1015,9 +1015,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 28860426,
-      "apy_pct": 0.11361,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 28829180,
+      "apy_pct": 0,
       "tvl_scope": "project_reference_pool",
       "tvl_source": "DeFiLlama largest pool for project",
       "apy_scope": "project_reference_pool",
@@ -1069,8 +1069,8 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 195919198.042394,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 190586892.11916548,
       "apy_pct": null,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total"
@@ -1126,8 +1126,8 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 263727866.15905738,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 267071636.91613483,
       "apy_pct": null,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total"
@@ -1193,14 +1193,14 @@
         {
           "underlying": "GOLD",
           "token": "PAXG",
-          "premium_pct": 0.021,
-          "market_cap": 1855194246.86
+          "premium_pct": 0.013,
+          "market_cap": 1861671171.77
         }
       ],
-      "as_of": "2026-09-25T04:59:00+00:00"
+      "as_of": "2026-09-26T04:59:32+00:00"
     },
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": null,
       "apy_pct": null,
       "tvl_scope": "protocol",
@@ -1266,20 +1266,20 @@
         {
           "underlying": "GOLD",
           "token": "XAUt",
-          "premium_pct": 0.096,
-          "market_cap": 2658826996.32
+          "premium_pct": 0.036,
+          "market_cap": 2666745057.42
         },
         {
           "underlying": "GOLD",
           "token": "XAUT0",
-          "premium_pct": 0.084,
-          "market_cap": 17711913.79
+          "premium_pct": -0.062,
+          "market_cap": 17767742.19
         }
       ],
-      "as_of": "2026-09-25T04:59:00+00:00"
+      "as_of": "2026-09-26T04:59:32+00:00"
     },
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": null,
       "apy_pct": null,
       "tvl_scope": "protocol",
@@ -1352,56 +1352,56 @@
         {
           "underlying": "CRCL",
           "token": "CRCLon",
-          "premium_pct": -0.07,
-          "market_cap": 108970083.08
+          "premium_pct": -0.112,
+          "market_cap": 103864909.26
         },
         {
           "underlying": "SPY",
           "token": "SPYon",
-          "premium_pct": 0.724,
-          "market_cap": 45824577.67
+          "premium_pct": 0.803,
+          "market_cap": 46012538.25
         },
         {
           "underlying": "NVDA",
           "token": "NVDAon",
-          "premium_pct": 0.144,
-          "market_cap": 38066325.79
+          "premium_pct": 0.061,
+          "market_cap": 38134466.65
         },
         {
           "underlying": "QQQ",
           "token": "QQQon",
-          "premium_pct": 0.352,
-          "market_cap": 33994646.6
+          "premium_pct": 0.416,
+          "market_cap": 34172992.66
         },
         {
           "underlying": "MSTR",
           "token": "MSTRon",
-          "premium_pct": 0.273,
-          "market_cap": 30931432.78
+          "premium_pct": 0.149,
+          "market_cap": 30292730.22
         },
         {
           "underlying": "GOOGL",
           "token": "GOOGLon",
-          "premium_pct": 0.139,
-          "market_cap": 19820570.46
+          "premium_pct": 0.21,
+          "market_cap": 20311606.45
         },
         {
           "underlying": "TSLA",
           "token": "TSLAon",
-          "premium_pct": 0.007,
-          "market_cap": 17519192.97
+          "premium_pct": -0.032,
+          "market_cap": 17206915.2
         },
         {
           "underlying": "COIN",
           "token": "COINon",
-          "premium_pct": 0.015,
-          "market_cap": 9670790.19
+          "premium_pct": 0.036,
+          "market_cap": 9580694.4
         }
       ],
-      "as_of": "2026-09-25T04:59:00+00:00"
+      "as_of": "2026-09-26T04:59:32+00:00"
     },
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": null,
       "apy_pct": null,
       "tvl_scope": "protocol",
@@ -1479,56 +1479,56 @@
         {
           "underlying": "MSTR",
           "token": "MSTRX",
-          "premium_pct": -0.013,
-          "market_cap": 100448815.68
+          "premium_pct": 0.009,
+          "market_cap": 99837165.67
         },
         {
           "underlying": "CRCL",
           "token": "CRCLX",
-          "premium_pct": 0.062,
-          "market_cap": 80848365.82
+          "premium_pct": 0.129,
+          "market_cap": 78110040.95
         },
         {
           "underlying": "TSLA",
           "token": "TSLAX",
-          "premium_pct": 0.018,
-          "market_cap": 71749363.39
+          "premium_pct": 0.012,
+          "market_cap": 70414229.7
         },
         {
           "underlying": "SPY",
           "token": "SPYX",
-          "premium_pct": 0.148,
-          "market_cap": 67210411.98
+          "premium_pct": 0.083,
+          "market_cap": 65011220.97
         },
         {
           "underlying": "NVDA",
           "token": "NVDAX",
-          "premium_pct": 0.103,
-          "market_cap": 41705345.23
+          "premium_pct": 0.007,
+          "market_cap": 41878324.81
         },
         {
           "underlying": "QQQ",
           "token": "QQQX",
-          "premium_pct": 0.149,
-          "market_cap": 37991800.08
+          "premium_pct": 0.131,
+          "market_cap": 38053739.34
         },
         {
           "underlying": "GOOGL",
           "token": "GOOGLX",
-          "premium_pct": 0.006,
-          "market_cap": 35977698.63
+          "premium_pct": -0.036,
+          "market_cap": 36578030.67
         },
         {
-          "underlying": "COIN",
-          "token": "COINX",
-          "premium_pct": -0.162,
-          "market_cap": 13173467.4
+          "underlying": "AAPL",
+          "token": "AAPLX",
+          "premium_pct": 0.06,
+          "market_cap": 13252497.42
         }
       ],
-      "as_of": "2026-09-25T04:59:00+00:00"
+      "as_of": "2026-09-26T04:59:32+00:00"
     },
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": null,
       "apy_pct": null,
       "tvl_scope": "protocol",
@@ -1593,9 +1593,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 4898053552.309615,
-      "apy_pct": 4.86187,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 4934923177.112609,
+      "apy_pct": 4.72676,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total",
       "apy_scope": "project_reference_pool",
@@ -1655,8 +1655,8 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 475742499.38715255,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 475789726.50123906,
       "apy_pct": null,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total"
@@ -1717,9 +1717,9 @@
     ],
     "verified_at": "2026-09-01",
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
-      "tvl_usd": 382798241.2166364,
-      "apy_pct": 6.79487,
+      "as_of": "2026-09-26T04:59:36+00:00",
+      "tvl_usd": 385042836.7467666,
+      "apy_pct": 6.77759,
       "tvl_scope": "protocol",
       "tvl_source": "DeFiLlama protocol total",
       "apy_scope": "project_reference_pool",
@@ -1840,7 +1840,7 @@
       }
     ],
     "live": {
-      "as_of": "2026-09-25T04:59:03+00:00",
+      "as_of": "2026-09-26T04:59:36+00:00",
       "tvl_usd": 88450000.0,
       "apy_pct": null,
       "tvl_source": "rwa.io \u00b7 IXS protocol TVL",
@@ -1853,7 +1853,7 @@
       "tvl_step_usd": 10000.0,
       "vault_tvl_usd": 1058.4871337729287,
       "vault_tvl_complete": true,
-      "vault_tvl_as_of": "2026-09-25T04:59:03+00:00",
+      "vault_tvl_as_of": "2026-09-26T04:59:36+00:00",
       "tvl_chains": [
         {
           "chain": "Avalanche",
@@ -1862,9 +1862,9 @@
           "decimals": 6,
           "tvl_usd": 402.614429,
           "base_units": "402614429",
-          "block_number": 96101566,
+          "block_number": 96172223,
           "rpc_url": "https://api.avax.network/ext/bc/C/rpc",
-          "as_of": "2026-09-25T04:59:03+00:00"
+          "as_of": "2026-09-26T04:59:36+00:00"
         },
         {
           "chain": "BNB Chain",
@@ -1873,9 +1873,9 @@
           "decimals": 18,
           "tvl_usd": 655.8727047729288,
           "base_units": "655872704772928805599",
-          "block_number": 123889026,
+          "block_number": 124081040,
           "rpc_url": "https://bsc-rpc.publicnode.com",
-          "as_of": "2026-09-25T04:59:03+00:00"
+          "as_of": "2026-09-26T04:59:36+00:00"
         }
       ]
     }
