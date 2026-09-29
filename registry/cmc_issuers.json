@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-28T05:25:43+00:00",
+  "as_of": "2026-09-29T05:45:17+00:00",
   "total": 24,
   "issuers": [
     {
@@ -23,7 +23,7 @@
       "name": "NA (Derivatives)",
       "website": null,
       "logo": null,
-      "num_tokens": 253
+      "num_tokens": 264
     },
     {
       "issuer_id": "6a465832fbe3004b1a0ea2dd",
@@ -72,7 +72,7 @@
       "name": "Backpack",
       "website": "https://backpack.exchange",
       "logo": "https://s2.coinmarketcap.com/static/img/issuer/M7sS2GzR_400x400.png",
-      "num_tokens": 8
+      "num_tokens": 10
     },
     {
       "issuer_id": "6a436076282e7240b76c8bf9",
