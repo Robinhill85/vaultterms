@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:45:17+00:00",
+  "generated_at": "2026-09-30T05:34:02+00:00",
   "note": "Auto-generated from DeFiLlama RWA categories. NOT hand-verified: no terms, KYC, or access data. Curated-tier vaults excluded.",
   "protocols": [
     {
@@ -9,8 +9,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 1207643013,
-      "change_7d_pct": 0.01,
+      "tvl_usd": 1208793998,
+      "change_7d_pct": 0.11,
       "url": "https://app.falcon.finance",
       "defillama_url": "https://defillama.com/protocol/falcon-finance"
     },
@@ -24,8 +24,8 @@
         "Stellar",
         "Monad"
       ],
-      "tvl_usd": 381506435,
-      "change_7d_pct": 6.42,
+      "tvl_usd": 378266201,
+      "change_7d_pct": 2.44,
       "url": "https://app.huma.finance",
       "defillama_url": "https://defillama.com/protocol/huma"
     },
@@ -36,10 +36,22 @@
       "chains": [
         "Solana"
       ],
-      "tvl_usd": 294762528,
-      "change_7d_pct": -2.6,
+      "tvl_usd": 292087472,
+      "change_7d_pct": -3.52,
       "url": "https://app.onre.finance",
       "defillama_url": "https://defillama.com/protocol/onre"
+    },
+    {
+      "slug": "usd-ai",
+      "name": "USD AI",
+      "category": "rwa",
+      "chains": [
+        "Arbitrum"
+      ],
+      "tvl_usd": 243995226,
+      "change_7d_pct": -25.98,
+      "url": "https://usd.ai/",
+      "defillama_url": "https://defillama.com/protocol/usd-ai"
     },
     {
       "slug": "bitfi-basis",
@@ -53,22 +65,10 @@
         "Hemi",
         "Bitlayer"
       ],
-      "tvl_usd": 234608553,
-      "change_7d_pct": -2.8,
+      "tvl_usd": 235257800,
+      "change_7d_pct": -3.62,
       "url": "https://www.bitfi.one",
       "defillama_url": "https://defillama.com/protocol/bitfi-basis"
-    },
-    {
-      "slug": "usd-ai",
-      "name": "USD AI",
-      "category": "rwa",
-      "chains": [
-        "Arbitrum"
-      ],
-      "tvl_usd": 230505992,
-      "change_7d_pct": -29.84,
-      "url": "https://usd.ai/",
-      "defillama_url": "https://defillama.com/protocol/usd-ai"
     },
     {
       "slug": "plume-vaults",
@@ -81,8 +81,8 @@
         "Solana",
         "Avalanche"
       ],
-      "tvl_usd": 221653531,
-      "change_7d_pct": 6.57,
+      "tvl_usd": 221726445,
+      "change_7d_pct": 6.21,
       "url": "https://app.plume.org/vaults",
       "defillama_url": "https://defillama.com/protocol/plume-vaults"
     },
@@ -93,8 +93,8 @@
       "chains": [
         "Solana"
       ],
-      "tvl_usd": 215100388,
-      "change_7d_pct": -2.3,
+      "tvl_usd": 214952879,
+      "change_7d_pct": -1.43,
       "url": "https://solstice.finance/",
       "defillama_url": "https://defillama.com/protocol/solstice"
     },
@@ -110,8 +110,8 @@
         "Polygon",
         "Solana"
       ],
-      "tvl_usd": 205603886,
-      "change_7d_pct": -2.94,
+      "tvl_usd": 205436690,
+      "change_7d_pct": -3.98,
       "url": "https://solv.finance/",
       "defillama_url": "https://defillama.com/protocol/solv-basis-trading"
     },
@@ -122,24 +122,10 @@
       "chains": [
         "xDai"
       ],
-      "tvl_usd": 155097576,
-      "change_7d_pct": 0.0,
+      "tvl_usd": 155094218,
+      "change_7d_pct": -0.0,
       "url": "",
       "defillama_url": "https://defillama.com/protocol/realt-tokens"
-    },
-    {
-      "slug": "bitwise-uscc",
-      "name": "Bitwise USCC",
-      "category": "basis_trading",
-      "chains": [
-        "Ethereum",
-        "Plume Mainnet",
-        "Solana"
-      ],
-      "tvl_usd": 136567287,
-      "change_7d_pct": 18.44,
-      "url": "https://superstate.com/",
-      "defillama_url": "https://defillama.com/protocol/bitwise-uscc"
     },
     {
       "slug": "r25",
@@ -148,8 +134,8 @@
       "chains": [
         "Pharos"
       ],
-      "tvl_usd": 133745557,
-      "change_7d_pct": 0.36,
+      "tvl_usd": 133780765,
+      "change_7d_pct": 0.34,
       "url": "https://www.r25.xyz/",
       "defillama_url": "https://defillama.com/protocol/r25"
     },
@@ -160,10 +146,24 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 133568052,
-      "change_7d_pct": -0.47,
+      "tvl_usd": 132250370,
+      "change_7d_pct": -1.54,
       "url": "https://app.theo.xyz/",
       "defillama_url": "https://defillama.com/protocol/theo-network-thusd"
+    },
+    {
+      "slug": "bitwise-uscc",
+      "name": "Bitwise USCC",
+      "category": "basis_trading",
+      "chains": [
+        "Ethereum",
+        "Plume Mainnet",
+        "Solana"
+      ],
+      "tvl_usd": 131320868,
+      "change_7d_pct": 12.45,
+      "url": "https://superstate.com/",
+      "defillama_url": "https://defillama.com/protocol/bitwise-uscc"
     },
     {
       "slug": "aster-usdf",
@@ -172,8 +172,8 @@
       "chains": [
         "Binance"
       ],
-      "tvl_usd": 111252854,
-      "change_7d_pct": -0.9,
+      "tvl_usd": 111356824,
+      "change_7d_pct": -0.57,
       "url": "https://www.asterdex.com/en/usdf",
       "defillama_url": "https://defillama.com/protocol/aster-usdf"
     },
@@ -184,7 +184,7 @@
       "chains": [
         "Monad"
       ],
-      "tvl_usd": 105526008,
+      "tvl_usd": 105552872,
       "change_7d_pct": 0.1,
       "url": "https://valos.io/",
       "defillama_url": "https://defillama.com/protocol/valos"
@@ -196,8 +196,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 104731824,
-      "change_7d_pct": 2.02,
+      "tvl_usd": 103819745,
+      "change_7d_pct": -0.97,
       "url": "https://frax.com/",
       "defillama_url": "https://defillama.com/protocol/frax-usd"
     },
@@ -208,8 +208,8 @@
       "chains": [
         "Algorand"
       ],
-      "tvl_usd": 101076741,
-      "change_7d_pct": -0.0,
+      "tvl_usd": 101200877,
+      "change_7d_pct": 0.11,
       "url": "https://www.lofty.ai",
       "defillama_url": "https://defillama.com/protocol/lofty"
     },
@@ -220,8 +220,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 87893958,
-      "change_7d_pct": 0.02,
+      "tvl_usd": 87798349,
+      "change_7d_pct": -0.09,
       "url": "https://usual.money",
       "defillama_url": "https://defillama.com/protocol/usual-usd0"
     },
@@ -232,8 +232,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 77863192,
-      "change_7d_pct": 14.62,
+      "tvl_usd": 77650905,
+      "change_7d_pct": 11.51,
       "url": "https://tori.finance/",
       "defillama_url": "https://defillama.com/protocol/tori-finance"
     },
@@ -244,8 +244,8 @@
       "chains": [
         "Binance"
       ],
-      "tvl_usd": 75380257,
-      "change_7d_pct": -9.7,
+      "tvl_usd": 75393588,
+      "change_7d_pct": -9.44,
       "url": "https://bitway.com/",
       "defillama_url": "https://defillama.com/protocol/bitway-earn"
     },
@@ -256,8 +256,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 73468894,
-      "change_7d_pct": 2.03,
+      "tvl_usd": 73462497,
+      "change_7d_pct": 1.85,
       "url": "https://sky.money/",
       "defillama_url": "https://defillama.com/protocol/sky-rwa"
     },
@@ -273,7 +273,7 @@
         "Optimism",
         "Polygon"
       ],
-      "tvl_usd": 62526130,
+      "tvl_usd": 62525287,
       "change_7d_pct": 0.09,
       "url": "https://app.zerobase.pro/",
       "defillama_url": "https://defillama.com/protocol/zerobase-cedefi"
@@ -286,8 +286,8 @@
         "Tron",
         "Ethereum"
       ],
-      "tvl_usd": 61082491,
-      "change_7d_pct": 0.22,
+      "tvl_usd": 61084455,
+      "change_7d_pct": 0.24,
       "url": "https://stusdt.io/#/home",
       "defillama_url": "https://defillama.com/protocol/stusdt"
     },
@@ -298,8 +298,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 56331335,
-      "change_7d_pct": 3.63,
+      "tvl_usd": 57134373,
+      "change_7d_pct": 3.2,
       "url": "https://axis.to",
       "defillama_url": "https://defillama.com/protocol/axis"
     },
@@ -311,8 +311,8 @@
         "Binance",
         "Solana"
       ],
-      "tvl_usd": 46055227,
-      "change_7d_pct": 6.59,
+      "tvl_usd": 46179480,
+      "change_7d_pct": 7.4,
       "url": "https://app.unitas.so",
       "defillama_url": "https://defillama.com/protocol/unitas-usdu"
     },
@@ -323,8 +323,8 @@
       "chains": [
         "Solana"
       ],
-      "tvl_usd": 44053695,
-      "change_7d_pct": -5.59,
+      "tvl_usd": 45055422,
+      "change_7d_pct": -3.45,
       "url": "https://jup.ag/?ref=f6y1ryr2snn3",
       "defillama_url": "https://defillama.com/protocol/jupusd"
     },
@@ -339,8 +339,8 @@
         "Avalanche",
         "Polygon"
       ],
-      "tvl_usd": 42385473,
-      "change_7d_pct": -0.02,
+      "tvl_usd": 42379798,
+      "change_7d_pct": -0.06,
       "url": "https://www.brickken.com",
       "defillama_url": "https://defillama.com/protocol/brickken"
     },
@@ -353,11 +353,11 @@
         "Arbitrum",
         "Optimism",
         "re.al",
-        "Ethereum",
-        "Base"
+        "Base",
+        "Ethereum"
       ],
-      "tvl_usd": 41534358,
-      "change_7d_pct": -0.94,
+      "tvl_usd": 41502336,
+      "change_7d_pct": -0.66,
       "url": "https://www.tangible.store",
       "defillama_url": "https://defillama.com/protocol/tangible-rwa"
     },
@@ -373,8 +373,8 @@
         "Near",
         "Avalanche"
       ],
-      "tvl_usd": 39652594,
-      "change_7d_pct": 0.01,
+      "tvl_usd": 39650499,
+      "change_7d_pct": -0.0,
       "url": "https://www.kaio.xyz/",
       "defillama_url": "https://defillama.com/protocol/kaio"
     },
@@ -386,8 +386,8 @@
         "Ethereum",
         "Binance"
       ],
-      "tvl_usd": 34843385,
-      "change_7d_pct": -0.02,
+      "tvl_usd": 34842374,
+      "change_7d_pct": -0.04,
       "url": "https://app.aegis.im",
       "defillama_url": "https://defillama.com/protocol/aegis-yusd"
     },
@@ -398,8 +398,8 @@
       "chains": [
         "Manta"
       ],
-      "tvl_usd": 26919736,
-      "change_7d_pct": -0.16,
+      "tvl_usd": 26922473,
+      "change_7d_pct": -0.21,
       "url": "https://cedefi.manta.network",
       "defillama_url": "https://defillama.com/protocol/manta-cedefi"
     },
@@ -410,8 +410,8 @@
       "chains": [
         "Binance"
       ],
-      "tvl_usd": 23545613,
-      "change_7d_pct": -0.01,
+      "tvl_usd": 23544911,
+      "change_7d_pct": -0.03,
       "url": "https://goldfinger.finance/",
       "defillama_url": "https://defillama.com/protocol/goldfinger"
     },
@@ -434,8 +434,8 @@
       "chains": [
         "Hyperliquid L1"
       ],
-      "tvl_usd": 21792903,
-      "change_7d_pct": -0.75,
+      "tvl_usd": 21750653,
+      "change_7d_pct": -0.97,
       "url": "https://liminal.money",
       "defillama_url": "https://defillama.com/protocol/liminal-basis"
     },
@@ -447,8 +447,8 @@
         "Flare",
         "Ethereum"
       ],
-      "tvl_usd": 20858494,
-      "change_7d_pct": -0.1,
+      "tvl_usd": 20860966,
+      "change_7d_pct": -0.02,
       "url": "https://vaults.clearpool.finance/",
       "defillama_url": "https://defillama.com/protocol/clearpool-tpool"
     },
@@ -465,28 +465,28 @@
       "defillama_url": "https://defillama.com/protocol/vesta-equity"
     },
     {
-      "slug": "piku-finance",
-      "name": "Piku Finance",
-      "category": "basis_trading",
-      "chains": [
-        "Ethereum"
-      ],
-      "tvl_usd": 19343525,
-      "change_7d_pct": -31.15,
-      "url": "https://piku.co/",
-      "defillama_url": "https://defillama.com/protocol/piku-finance"
-    },
-    {
       "slug": "sygnum-fiusd-liquidity-fund",
       "name": "Sygnum FIUSD Liquidity Fund",
       "category": "rwa",
       "chains": [
         "zkSync Era"
       ],
-      "tvl_usd": 19316067,
+      "tvl_usd": 19318105,
       "change_7d_pct": -13.41,
       "url": "https://www.sygnum.com/",
       "defillama_url": "https://defillama.com/protocol/sygnum-fiusd-liquidity-fund"
+    },
+    {
+      "slug": "piku-finance",
+      "name": "Piku Finance",
+      "category": "basis_trading",
+      "chains": [
+        "Ethereum"
+      ],
+      "tvl_usd": 18948857,
+      "change_7d_pct": -1.35,
+      "url": "https://piku.co/",
+      "defillama_url": "https://defillama.com/protocol/piku-finance"
     },
     {
       "slug": "gaib",
@@ -524,26 +524,10 @@
       "chains": [
         "Arbitrum"
       ],
-      "tvl_usd": 13950736,
-      "change_7d_pct": 0.0,
+      "tvl_usd": 13950167,
+      "change_7d_pct": -0.0,
       "url": "https://www.estateprotocol.com",
       "defillama_url": "https://defillama.com/protocol/estate-protocol"
-    },
-    {
-      "slug": "theo-network-thbill",
-      "name": "Theo Network thBill",
-      "category": "rwa",
-      "chains": [
-        "Monad",
-        "Ethereum",
-        "Arbitrum",
-        "Base",
-        "Solana"
-      ],
-      "tvl_usd": 13729446,
-      "change_7d_pct": -26.68,
-      "url": "https://app.theo.xyz/",
-      "defillama_url": "https://defillama.com/protocol/theo-network-thbill"
     },
     {
       "slug": "paimon",
@@ -552,8 +536,8 @@
       "chains": [
         "Binance"
       ],
-      "tvl_usd": 13441092,
-      "change_7d_pct": 8.31,
+      "tvl_usd": 13442383,
+      "change_7d_pct": 0.12,
       "url": "https://paimon.finance/",
       "defillama_url": "https://defillama.com/protocol/paimon"
     },
@@ -565,10 +549,26 @@
         "Base",
         "Avalanche"
       ],
-      "tvl_usd": 12986458,
-      "change_7d_pct": 0.0,
+      "tvl_usd": 12987928,
+      "change_7d_pct": 0.01,
       "url": "https://xsy.fi",
       "defillama_url": "https://defillama.com/protocol/xsy"
+    },
+    {
+      "slug": "theo-network-thbill",
+      "name": "Theo Network thBill",
+      "category": "rwa",
+      "chains": [
+        "Monad",
+        "Ethereum",
+        "Arbitrum",
+        "Solana",
+        "Base"
+      ],
+      "tvl_usd": 12174857,
+      "change_7d_pct": -11.87,
+      "url": "https://app.theo.xyz/",
+      "defillama_url": "https://defillama.com/protocol/theo-network-thbill"
     },
     {
       "slug": "bouncebit-prime",
@@ -578,22 +578,10 @@
         "Binance",
         "Ethereum"
       ],
-      "tvl_usd": 11450519,
-      "change_7d_pct": -0.01,
+      "tvl_usd": 11449918,
+      "change_7d_pct": -0.02,
       "url": "https://prime.bouncebit.io/",
       "defillama_url": "https://defillama.com/protocol/bouncebit-prime"
-    },
-    {
-      "slug": "republic-note",
-      "name": "Republic Note",
-      "category": "rwa",
-      "chains": [
-        "Avalanche"
-      ],
-      "tvl_usd": 11134330,
-      "change_7d_pct": -18.53,
-      "url": "https://republic.com/note",
-      "defillama_url": "https://defillama.com/protocol/republic-note"
     },
     {
       "slug": "solv-rwa",
@@ -603,8 +591,8 @@
         "Binance",
         "Mantle"
       ],
-      "tvl_usd": 9500558,
-      "change_7d_pct": -2.19,
+      "tvl_usd": 9485124,
+      "change_7d_pct": -3.29,
       "url": "https://solv.finance/",
       "defillama_url": "https://defillama.com/protocol/solv-rwa"
     },
@@ -615,22 +603,10 @@
       "chains": [
         "Algorand"
       ],
-      "tvl_usd": 9352913,
-      "change_7d_pct": -6.49,
+      "tvl_usd": 9444473,
+      "change_7d_pct": -6.0,
       "url": "https://meld.gold",
       "defillama_url": "https://defillama.com/protocol/meld-gold"
-    },
-    {
-      "slug": "narausd",
-      "name": "NaraUSD",
-      "category": "rwa",
-      "chains": [
-        "Ethereum"
-      ],
-      "tvl_usd": 9297440,
-      "change_7d_pct": 0.19,
-      "url": "https://www.nara.io",
-      "defillama_url": "https://defillama.com/protocol/narausd"
     },
     {
       "slug": "binaryx-platform",
@@ -639,10 +615,22 @@
       "chains": [
         "Polygon"
       ],
-      "tvl_usd": 8986159,
-      "change_7d_pct": 0.05,
+      "tvl_usd": 8986651,
+      "change_7d_pct": 0.03,
       "url": "https://www.binaryx.com",
       "defillama_url": "https://defillama.com/protocol/binaryx-platform"
+    },
+    {
+      "slug": "republic-note",
+      "name": "Republic Note",
+      "category": "rwa",
+      "chains": [
+        "Avalanche"
+      ],
+      "tvl_usd": 8351462,
+      "change_7d_pct": -38.89,
+      "url": "https://republic.com/note",
+      "defillama_url": "https://defillama.com/protocol/republic-note"
     },
     {
       "slug": "vault-street",
@@ -651,8 +639,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 7837091,
-      "change_7d_pct": 10.62,
+      "tvl_usd": 7956401,
+      "change_7d_pct": 12.26,
       "url": "https://www.vaultstreet.com/",
       "defillama_url": "https://defillama.com/protocol/vault-street"
     },
@@ -663,8 +651,8 @@
       "chains": [
         "Etherlink"
       ],
-      "tvl_usd": 7550300,
-      "change_7d_pct": -0.45,
+      "tvl_usd": 7566735,
+      "change_7d_pct": -0.14,
       "url": "https://uranium.io/en",
       "defillama_url": "https://defillama.com/protocol/uranium.io"
     },
@@ -679,8 +667,8 @@
         "Arbitrum",
         "Blast"
       ],
-      "tvl_usd": 7498317,
-      "change_7d_pct": -1.74,
+      "tvl_usd": 7504280,
+      "change_7d_pct": -1.84,
       "url": "https://anzen.finance",
       "defillama_url": "https://defillama.com/protocol/anzen-v2"
     },
@@ -691,22 +679,10 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 7290276,
-      "change_7d_pct": -5.8,
+      "tvl_usd": 7363627,
+      "change_7d_pct": -5.08,
       "url": "",
       "defillama_url": "https://defillama.com/protocol/aurus"
-    },
-    {
-      "slug": "solomon-usdv",
-      "name": "Solomon USDv",
-      "category": "basis_trading",
-      "chains": [
-        "Solana"
-      ],
-      "tvl_usd": 7197451,
-      "change_7d_pct": 463.72,
-      "url": "https://solomonlabs.org/",
-      "defillama_url": "https://defillama.com/protocol/solomon-usdv"
     },
     {
       "slug": "defa-by-invoicemate",
@@ -717,10 +693,22 @@
         "ZIGChain",
         "Starknet"
       ],
-      "tvl_usd": 7189178,
-      "change_7d_pct": 0.01,
+      "tvl_usd": 7188799,
+      "change_7d_pct": -0.0,
       "url": "https://imdefa.com/",
       "defillama_url": "https://defillama.com/protocol/defa-by-invoicemate"
+    },
+    {
+      "slug": "solomon-usdv",
+      "name": "Solomon USDv",
+      "category": "basis_trading",
+      "chains": [
+        "Solana"
+      ],
+      "tvl_usd": 7178778,
+      "change_7d_pct": 303.95,
+      "url": "https://solomonlabs.org/",
+      "defillama_url": "https://defillama.com/protocol/solomon-usdv"
     },
     {
       "slug": "mansory",
@@ -730,10 +718,22 @@
         "Binance",
         "Solana"
       ],
-      "tvl_usd": 6926430,
-      "change_7d_pct": -0.78,
+      "tvl_usd": 6947680,
+      "change_7d_pct": -1.06,
       "url": "https://www.mansory.com/",
       "defillama_url": "https://defillama.com/protocol/mansory"
+    },
+    {
+      "slug": "narausd",
+      "name": "NaraUSD",
+      "category": "rwa",
+      "chains": [
+        "Ethereum"
+      ],
+      "tvl_usd": 6806581,
+      "change_7d_pct": -26.66,
+      "url": "https://www.nara.io",
+      "defillama_url": "https://defillama.com/protocol/narausd"
     },
     {
       "slug": "digital-gold",
@@ -742,8 +742,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 6652355,
-      "change_7d_pct": null,
+      "tvl_usd": 6718865,
+      "change_7d_pct": -3.99,
       "url": "https://dgld.ch/",
       "defillama_url": "https://defillama.com/protocol/digital-gold"
     },
@@ -754,8 +754,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 6253615,
-      "change_7d_pct": -0.1,
+      "tvl_usd": 6249876,
+      "change_7d_pct": -0.12,
       "url": "https://app.resolv.xyz",
       "defillama_url": "https://defillama.com/protocol/resolv-usr"
     },
@@ -766,8 +766,8 @@
       "chains": [
         "Ethereum"
       ],
-      "tvl_usd": 5356511,
-      "change_7d_pct": -1.25,
+      "tvl_usd": 5356263,
+      "change_7d_pct": -1.27,
       "url": "https://www.eva.markets",
       "defillama_url": "https://defillama.com/protocol/eva-markets"
     }
