@@ -1046,11 +1046,11 @@
         {
           "underlying": "GOLD",
           "token": "PAXG",
-          "premium_pct": 0.138,
-          "market_cap": 1823828867.36
+          "premium_pct": 0.149,
+          "market_cap": 1824047041.17
         }
       ],
-      "as_of": "2026-10-01T05:56:30+00:00"
+      "as_of": "2026-10-02T05:39:20+00:00"
     }
   },
   {
@@ -1112,17 +1112,17 @@
         {
           "underlying": "GOLD",
           "token": "XAUt",
-          "premium_pct": -0.052,
-          "market_cap": 2967861280.56
+          "premium_pct": -0.044,
+          "market_cap": 2968136219.46
         },
         {
           "underlying": "GOLD",
           "token": "XAUT0",
-          "premium_pct": -0.093,
-          "market_cap": 17713296.69
+          "premium_pct": -0.023,
+          "market_cap": 17718316.95
         }
       ],
-      "as_of": "2026-10-01T05:56:30+00:00"
+      "as_of": "2026-10-02T05:39:20+00:00"
     }
   },
   {
@@ -1191,53 +1191,53 @@
         {
           "underlying": "CRCL",
           "token": "CRCLon",
-          "premium_pct": -0.078,
-          "market_cap": 99933371.28
+          "premium_pct": -0.113,
+          "market_cap": 102019128.29
         },
         {
           "underlying": "SPY",
           "token": "SPYon",
-          "premium_pct": 0.793,
-          "market_cap": 46066863.75
+          "premium_pct": 0.752,
+          "market_cap": 45972563.2
         },
         {
           "underlying": "NVDA",
           "token": "NVDAon",
-          "premium_pct": 0.145,
-          "market_cap": 39392996.55
+          "premium_pct": 0.038,
+          "market_cap": 39396155.83
         },
         {
           "underlying": "QQQ",
           "token": "QQQon",
-          "premium_pct": 0.414,
-          "market_cap": 34470007.48
+          "premium_pct": 0.306,
+          "market_cap": 34231209.98
         },
         {
           "underlying": "MSTR",
           "token": "MSTRon",
-          "premium_pct": -0.099,
-          "market_cap": 29990348.93
+          "premium_pct": 0.098,
+          "market_cap": 31694013.22
         },
         {
           "underlying": "GOOGL",
           "token": "GOOGLon",
-          "premium_pct": 0.186,
-          "market_cap": 20749388.36
+          "premium_pct": 0.116,
+          "market_cap": 20870574.59
         },
         {
           "underlying": "TSLA",
           "token": "TSLAon",
-          "premium_pct": -0.02,
-          "market_cap": 16746329.97
+          "premium_pct": -0.083,
+          "market_cap": 16658670.89
         },
         {
           "underlying": "COIN",
           "token": "COINon",
-          "premium_pct": -0.032,
-          "market_cap": 9356016.41
+          "premium_pct": 0.021,
+          "market_cap": 9569762.21
         }
       ],
-      "as_of": "2026-10-01T05:56:30+00:00"
+      "as_of": "2026-10-02T05:39:20+00:00"
     }
   },
   {
@@ -1311,53 +1311,53 @@
         {
           "underlying": "MSTR",
           "token": "MSTRX",
-          "premium_pct": -0.005,
-          "market_cap": 108095836.9
+          "premium_pct": -0.007,
+          "market_cap": 114819457.42
         },
         {
           "underlying": "CRCL",
           "token": "CRCLX",
-          "premium_pct": -0.019,
-          "market_cap": 80250299.01
+          "premium_pct": -0.002,
+          "market_cap": 84284576.8
         },
         {
           "underlying": "TSLA",
           "token": "TSLAX",
-          "premium_pct": 0.016,
-          "market_cap": 69571649.81
+          "premium_pct": 0.0,
+          "market_cap": 69299893.49
         },
         {
           "underlying": "SPY",
           "token": "SPYX",
-          "premium_pct": 0.162,
-          "market_cap": 64718605.2
+          "premium_pct": 0.165,
+          "market_cap": 64650616.21
         },
         {
           "underlying": "NVDA",
           "token": "NVDAX",
-          "premium_pct": 0.115,
-          "market_cap": 43605646.58
+          "premium_pct": 0.145,
+          "market_cap": 43616151.85
         },
         {
           "underlying": "QQQ",
           "token": "QQQX",
-          "premium_pct": 0.224,
-          "market_cap": 39185370.77
+          "premium_pct": 0.164,
+          "market_cap": 39332479.18
         },
         {
           "underlying": "GOOGL",
           "token": "GOOGLX",
-          "premium_pct": 0.069,
-          "market_cap": 39027043.13
+          "premium_pct": 0.058,
+          "market_cap": 38694480.46
         },
         {
           "underlying": "AAPL",
           "token": "AAPLX",
-          "premium_pct": 0.069,
-          "market_cap": 13223661.32
+          "premium_pct": 0.102,
+          "market_cap": 13167109.76
         }
       ],
-      "as_of": "2026-10-01T05:56:30+00:00"
+      "as_of": "2026-10-02T05:39:20+00:00"
     }
   },
   {
